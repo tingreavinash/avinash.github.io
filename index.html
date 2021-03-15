@@ -74,7 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                <a class="nav-link js-scroll-trigger" href="#about">Summary</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
@@ -89,7 +89,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                <a class="nav-link js-scroll-trigger" href="#interests">About me</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#certificates">Certificates</a>
@@ -127,9 +127,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <mark>Computer Science.</mark>
                     </li>
                     <li>
-                        <span id="yearsExperience">{exp_in_year}</span>
+                        <span id="yearsExperience" data-aos="flip-right">{exp_in_year}</span>
                         years and
-                        <span id="monthsExperience">{exp_in_months}</span>
+                        <span id="monthsExperience" data-aos="flip-right">{exp_in_months}</span>
                         months of experience in
                         <mark>Software Development and Support.</mark>
                     </li>
@@ -143,14 +143,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <i class="fab fa-linkedin-in"></i>
                     </a>
 
-                    <a data-placement="top" data-toggle="tooltip" href="https://www.facebook.com/tingre" target="_blank"
-                       title="Facebook">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
 
-                    <a data-placement="top" data-toggle="tooltip" href="http://instagram.com/_u/avinash_tingre/"
-                       target="_blank" title="Instagram">
-                        <i class="fab fa-instagram"></i>
+
+                    <a data-placement="top" data-toggle="tooltip" href="https://tingreavinash.medium.com/"
+                       target="_blank" title="Medium">
+                        <i class="fab fa-medium-m"></i>
                     </a>
 
                     <a data-placement="top" data-toggle="tooltip" href="https://github.com/tingreavinash"
@@ -160,6 +157,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                     <a data-placement="top" data-toggle="tooltip" href="mailto:tingre.avinash@gmail.com" title="Email">
                         <i class="far fa-envelope"></i>
+                    </a>
+                    <a data-placement="top" data-toggle="tooltip" href="https://www.facebook.com/tingre" target="_blank"
+                       title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
                     </a>
                 </div>
             </div>
@@ -665,6 +666,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <img src="img/icons/js.svg" data-placement="bottom" data-toggle="tooltip" data-aos="fade-right" title="JavaScript">
                     </div>
                     <div class="col">
+                        <img src="img/icons/angular.svg" data-placement="bottom" data-toggle="tooltip" data-aos="fade-right" title="Angular">
+                    </div>
+
+                    <div class="col">
                         <img src="img/icons/git.svg" data-placement="bottom" data-toggle="tooltip" data-aos="fade-right" title="Git">
                     </div>
                     <div class="col">
@@ -697,14 +702,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="chip chip-border-primary">Java</div>
                         <div class="chip chip-border-primary">Spring Boot</div>
                         <div class="chip chip-border-primary">Hibernate</div>
-                        <div class="chip chip-border-primary">JSP</div>
-                        <div class="chip chip-border-primary">Servlet</div>
                         <div class="chip chip-border-primary">Fission Framework</div>
-                        <div class="chip chip-border-primary">HTML</div>
-                        <div class="chip chip-border-primary">CSS</div>
-                        <div class="chip chip-border-primary">Bootstrap</div>
+
                     </td>
                 </tr>
+
+                <tr data-aos="fade-right">
+                    <th scope="row">Web Technologies</th>
+                    <td>
+                        <div class="chip chip-border-primary">HTML</div>
+                        <div class="chip chip-border-primary">CSS</div>
+                        <div class="chip chip-border-primary">JavaScript</div>
+                        <div class="chip chip-border-primary">Angular</div>
+
+                        <div class="chip chip-border-primary">Bootstrap</div>
+                        <div class="chip chip-border-primary">JSP</div>
+                        <div class="chip chip-border-primary">Servlet</div>
+                    </td>
+                </tr>
+
 
                 <tr data-aos="fade-right">
                     <th scope="row">Database</th>
@@ -748,7 +764,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <td colspan="2">
                         <div class="chip chip-border-primary">Docker</div>
                         <div class="chip chip-border-primary">Kubernetes</div>
-                        <div class="chip chip-border-primary">JavaScript</div>
                         <div class="chip chip-border-primary">Kafka</div>
                         <div class="chip chip-border-primary">Shell Script</div>
                         <div class="chip chip-border-primary">Linux</div>
@@ -766,11 +781,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
         <div class="w-100">
-            <h2 class="mb-5 section-heading" data-aos="fade-down">Interests</h2>
-            <p class="lead text-justify" data-aos="fade-right" >Apart from being a Software Engineer, I enjoy most of my time being outdoors. I
-                enjoy bike riding, swimming and traveling.<br><br>
+            <h2 class="mb-5 section-heading" data-aos="fade-down">About me</h2>
+            <p class="lead text-justify" data-aos="fade-right" >As a software developer at Netcracker, I help make a difference for many telecom customers around the globe.
+                <br><br>
 
-                When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows.</p>
+                In my team, we primarily customize the Resource Inventory application to match the ongoing requirements of B2B customers - on Java Frameworks (Spring, Hibernate).
+                It is still quite new to me, but I try to learn all the new technologies, that comes with this particular platform and
+                I find the possibilities very exciting. Throughout the years, I have worked a lot with web technologies.
+                I believe that sharing technological knowledge can make a difference for the future developers.
+                <br><br>
+                Besides expanding my knowledge of new technologies, I cherish visiting places surrounded by nature and
+                watching movies in my spare time as a nice opposite to what I do for a living.
+            </p>
         </div>
     </section>
 
