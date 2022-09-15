@@ -71,7 +71,7 @@
     <script src="https://kit.fontawesome.com/974ea2e719.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="custom-scrollbar-css" id="page-top" onload="showGreeting()">
+<body class="custom-scrollbar-css" id="page-top">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNCT9HS" height="0" width="0"
@@ -124,11 +124,11 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#extraactivities">Co-Curricular Activities</a>
                 </li>
-                <!--<li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="https://tingreavinash.github.io/assets/files/Avinash_Tingre_Resume.pdf"
+                <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="https://tingreavinash.github.io/assets/resume/v2/Avinash_Tingre_Resume.pdf"
                    target="_blank">Download Resume <i
                         class="fas fa-download"></i></a>
-            </li>-->
+            </li>
 
                 <br>
                 <!--<div style="color:white">
@@ -153,9 +153,8 @@
 
                     <ul class="lead mb-5" style="text-align: left;" data-aos="fade-right">
                         <li>IT Professional with
-                            <span id="yearsExperience" data-aos="flip-right">{exp_in_year}</span> years and
-                            <span id="monthsExperience" data-aos="flip-right">{exp_in_months}</span> months of
-                            experience in
+                            <span id="totalExperience" data-aos="flip-right">{oops_something_failed}</span>
+                            of experience in
                             <mark>Software Development.</mark>
                         </li>
 
@@ -433,7 +432,7 @@
                         </a>
                         <h3 class="mb-0">Senior Tech Engineer</h3>
                         <span class="spot-award" data-target="#certificate_modal" data-toggle="modal"
-                            onclick="populatedata('./assets/images/certificates/Spot-Award-Opus.png', '#', true)">
+                            onclick="fillCertificateData('./assets/images/certificates/Spot-Award-Opus.png', '#', true)">
                             <i class="fa-solid fa-award fa-xl" alt="Spot Award" data-placement="right"
                                 data-toggle="tooltip" title="Spot Award"></i></span>
 
@@ -516,7 +515,7 @@
                         </a>
                         <h3 class="mb-0">Software Developer</h3>
                         <span class="spot-award" data-target="#certificate_modal" data-toggle="modal"
-                            onclick="populatedata('./assets/images/certificates/Spot-Award-Amdocs.png', '#', true)">
+                            onclick="fillCertificateData('./assets/images/certificates/Spot-Award-Amdocs.png', '#', true)">
                             <i class="fa-solid fa-award fa-xl" alt="Spot Award" data-placement="right"
                                 data-toggle="tooltip" title="Spot Award"></i></span>
 
@@ -733,7 +732,7 @@
                                         <button type="button" class="btn btn-sm btn-outline-secondary certificate-btn"
                                             id="cert-Microservices-with-Spring-Boot" data-target="#certificate_modal"
                                             data-toggle="modal"
-                                            onclick="populatedata('./assets/images/certificates/Microservices_Springboot.PNG', 'https://www.coursera.org/account/accomplishments/certificate/PYXDNN8MHFD6')">
+                                            onclick="fillCertificateData('./assets/images/certificates/Microservices_Springboot.PNG', 'https://www.coursera.org/account/accomplishments/certificate/PYXDNN8MHFD6')">
                                             <i id="cert-Microservices-with-Spring-Boot"
                                                 class="fas fa-external-link-square-alt"></i>
                                         </button>
@@ -762,7 +761,7 @@
                                         <button type="button" class="btn btn-sm btn-outline-secondary certificate-btn"
                                             id="cert-Object-Oriented-Programming-with-Java"
                                             data-target="#certificate_modal" data-toggle="modal"
-                                            onclick="populatedata('./assets/images/certificates/OOP_Java.PNG', 'https://www.coursera.org/account/accomplishments/certificate/HSNJMUE7SDE7')">
+                                            onclick="fillCertificateData('./assets/images/certificates/OOP_Java.PNG', 'https://www.coursera.org/account/accomplishments/certificate/HSNJMUE7SDE7')">
                                             <i id="cert-Object-Oriented-Programming-with-Java"
                                                 class="fas fa-external-link-square-alt"></i>
                                         </button>
@@ -802,7 +801,7 @@
                                         <button type="button" class="btn btn-sm btn-outline-secondary certificate-btn"
                                             id="cert-Docker-Essentials" data-target="#certificate_modal"
                                             data-toggle="modal"
-                                            onclick="populatedata('./assets/images/certificates/Docker_CognitiveClass.png', 'https://courses.cognitiveclass.ai/certificates/e5af3cc366ff4c97a370813340aa1967')">
+                                            onclick="fillCertificateData('./assets/images/certificates/Docker_CognitiveClass.png', 'https://courses.cognitiveclass.ai/certificates/e5af3cc366ff4c97a370813340aa1967')">
                                             <i id="cert-Docker-Essentials" class="fas fa-external-link-square-alt"></i>
                                         </button>
                                     </div>
@@ -827,7 +826,7 @@
                                         <button type="button" class="btn btn-sm btn-outline-secondary certificate-btn"
                                             id="cert-AWS-Cloud-Practitioner-Essentials" data-target="#certificate_modal"
                                             data-toggle="modal"
-                                            onclick="populatedata('./assets/images/certificates/AWS_Cloud_Practitioner_Essentials.png', 'https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=UiD7_LFWVEOC_MfWiY2wkw2')">
+                                            onclick="fillCertificateData('./assets/images/certificates/AWS_Cloud_Practitioner_Essentials.png', 'https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=UiD7_LFWVEOC_MfWiY2wkw2')">
                                             <i id="cert-AWS-Cloud-Practitioner-Essentials"
                                                 class="fas fa-external-link-square-alt"></i>
                                         </button>
@@ -862,7 +861,7 @@
                                         <button type="button" class="btn btn-sm btn-outline-secondary certificate-btn"
                                             id="cert-hackerrank-java" data-target="#certificate_modal"
                                             data-toggle="modal"
-                                            onclick="populatedata('./assets/images/certificates/Java_Hackerrank.jpeg', 'https://www.hackerrank.com/certificates/4514f7619a20')">
+                                            onclick="fillCertificateData('./assets/images/certificates/Java_Hackerrank.jpeg', 'https://www.hackerrank.com/certificates/4514f7619a20')">
                                             <i id="cert-hackerrank-java" class="fas fa-external-link-square-alt"></i>
                                         </button>
 
@@ -890,7 +889,7 @@
                                         <button type="button" class="btn btn-sm btn-outline-secondary certificate-btn"
                                             id="cert-great-learning-java" data-target="#certificate_modal"
                                             data-toggle="modal"
-                                            onclick="populatedata('./assets/images/certificates/Java_GreatLearning.png', 'https://verify.greatlearning.in/HVNRIFGA')">
+                                            onclick="fillCertificateData('./assets/images/certificates/Java_GreatLearning.png', 'https://verify.greatlearning.in/HVNRIFGA')">
                                             <i id="cert-great-learning-java"
                                                 class="fas fa-external-link-square-alt"></i>
                                         </button>
