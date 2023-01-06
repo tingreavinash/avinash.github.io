@@ -130,9 +130,9 @@
             </li>
 
                 <br>
-                <!--<div style="color:white">
-                <small>Last updated on: </small> <span
-                    class="badge badge-warning"><b>01<sup>st</sup> Mar 2021</b></span></div>-->
+                <div style="color:white">
+                <span id="last-update-time" class="badge badge-pill badge-warning">...</span>
+                </div>
             </ul>
         </div>
     </nav>
@@ -581,7 +581,7 @@
                         </div>
                         <div class="col">
                             <img src="./assets/icons/oracle-sql.png" alt="Oracle SQL" data-placement="bottom"
-                                data-toggle="tooltip" data-aos="fade-right" title="SQL">
+                                data-toggle="tooltip" data-aos="fade-right" title="Oracle SQL">
                         </div>
 
                         <div class="col">
@@ -616,8 +616,8 @@
                                 data-aos="fade-right" title="AWS">
                         </div>
                         <div class="col">
-                            <img src="./assets/icons/firebase.svg" alt="Firebase" data-placement="bottom"
-                                data-toggle="tooltip" data-aos="fade-right" title="Firebase">
+                            <img src="./assets/icons/Postgresql_elephant.svg" alt="PostgreSQL" data-placement="bottom"
+                                data-toggle="tooltip" data-aos="fade-right" title="PostgreSQL">
                         </div>
 
                         <div class="col">
@@ -642,6 +642,7 @@
                                 <div class="chip chip-border-primary">Spring Cloud</div>
                                 <div class="chip chip-border-primary">Hibernate</div>
                                 <div class="chip chip-border-primary">JPA</div>
+                                <div class="chip chip-border-primary">Eclipse Vert.x</div>
                             </td>
                         </tr>
 
@@ -659,7 +660,8 @@
                         <tr data-aos="fade-right">
                             <th scope="row">Database</th>
                             <td>
-                                <div class="chip chip-border-primary">SQL</div>
+                                <div class="chip chip-border-primary">Oracle SQL</div>
+                                <div class="chip chip-border-primary">Postgres</div>
                             </td>
                         </tr>
 
@@ -676,6 +678,8 @@
                                 <div class="chip chip-border-primary">Git</div>
                                 <div class="chip chip-border-primary">Gitlab</div>
                                 <div class="chip chip-border-primary">Jira</div>
+                                <div class="chip chip-border-primary">Bitbucket</div>
+                                
                             </td>
                         </tr>
 
@@ -685,6 +689,7 @@
                                 <div class="chip chip-border-primary">IntelliJ</div>
                                 <div class="chip chip-border-primary">Eclipse</div>
                                 <div class="chip chip-border-primary">Maven</div>
+                                <div class="chip chip-border-primary">Gradle</div>
                             </td>
                         </tr>
 
@@ -695,6 +700,7 @@
                                 <div class="chip chip-border-primary">AWS</div>
                                 <div class="chip chip-border-primary">Docker</div>
                                 <div class="chip chip-border-primary">Kubernetes</div>
+                                <div class="chip chip-border-primary">Camunda Platform</div>
                                 <div class="chip chip-border-primary">Linux</div>
                                 <div class="chip chip-border-primary">Microservices</div>
                             </td>
@@ -715,6 +721,40 @@
                 <h2 class="mb-5 " data-aos="fade-down">
                     <span class="section-heading">Certificates</span>
                 </h2>
+                <div class="row justify-content-md-center">
+                    <div class="card-deck" style="margin-top:1rem;">
+                        <div data-aos="fade-right" class="custom-card-style card mobile-fit-cert">
+
+                            <div class="row no-gutters custom-border-top">
+                                <div class="col-md-4">
+
+                                    <div class="cert-img-box card-header bg-transparent">
+                                        <img alt="Eclipse Vertx" class="cert_img cert_img_mobile"
+                                            src="./assets/images/Vert.x_Logo.svg">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8">
+                                    <div class="card-body d-flex flex-column">
+                                        <h4 class="card-title ">Eclipse Vert.x - Reactive microservices with Java</h4>
+                                        <span>Jan 2023</span>
+
+                                        <button type="button" class="btn btn-sm btn-outline-secondary certificate-btn"
+                                            id="cert-eclipse-vertx" data-target="#certificate_modal"
+                                            data-toggle="modal"
+                                            onclick="fillCertificateData('./assets/images/certificates/Vertx-Udemy-Certificate.jpg', 'https://www.udemy.com/certificate/UC-10f9bc01-3ea1-4d07-bc6e-099ba272a62b')">
+                                            <i id="cert-eclipse-vertx"
+                                                class="fas fa-external-link-square-alt"></i>
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
 
                 <div class="row justify-content-md-center">
                     <div class="card-deck" style="margin-top:1rem;">
@@ -797,7 +837,7 @@
 
                                 <div class="col-md-8">
                                     <div class="card-body d-flex flex-column ">
-                                        <h4 class="card-title">Docker Essentials:<br>A Developer Introduction</h4>
+                                        <h4 class="card-title">Docker Essentials</h4>
                                         <span>Apr 2019</span>
                                         <!-- Certificate URL: https://courses.cognitiveclass.ai/certificates/e5af3cc366ff4c97a370813340aa1967
                                     YourAcclaim URL: https://www.youracclaim.com/badges/79d9e238-53aa-4c33-aed5-8cf0d036f52f/
@@ -819,7 +859,7 @@
                                 <div class="col-md-4">
                                     <div class="cert-img-box card-header bg-transparent ">
                                         <img alt="AWS Cloud Practitioner" class="cert_img cert_img_mobile"
-                                            src="./assets/images/AmazonWebservices_Logo.svg">
+                                            src="./assets/images/AWS-Training-Cert2.png">
                                     </div>
                                 </div>
 
@@ -853,7 +893,7 @@
 
                                     <div class="cert-img-box card-header bg-transparent">
                                         <img alt="Java by HackerRank" class="cert_img cert_img_mobile"
-                                            src="./assets/images/Hackerrank-Logo.svg">
+                                            src="./assets/images/hackerrank_logo2.png">
                                     </div>
                                 </div>
 
@@ -1323,6 +1363,7 @@
     <script src="./assets/vendor/jquery/jquery.min.js"></script>
     <script src="./assets/vendor/popper/popper.min.js"></script>
     <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/vendor/moment/moment.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="./assets/vendor/jquery-easing/jquery.easing.min.js"></script>
