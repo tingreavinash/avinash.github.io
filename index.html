@@ -306,7 +306,7 @@
                             <img src="./assets/images/opus_logo.svg" alt="Opus Consulting" style="max-width: 8rem; margin-bottom:0.5rem;">
                         </a>
                         <h3 class="mb-0">Senior Tech Engineer</h3>
-                        <span class="spot-award" data-target="#certificate_modal" data-toggle="modal" onclick="fillCertificateData('./assets/images/certificates/Spot-Award-Opus.png', '#', true)">
+                        <span class="spot-award" data-target="#certificate_modal" data-toggle="modal" onclick="fillCertificateData('./assets/images/certificates/Spot-Award-Opus.png', '#', false)">
                             <i class="fa-solid fa-award fa-xl" alt="Spot Award" data-placement="right" data-toggle="tooltip" title="Spot Award"></i></span>
                         <p>
                             <ul>
@@ -370,7 +370,7 @@
                             <img src="./assets/images/amdocs-logo.png" alt="Amdocs" style="max-width: 8rem; margin-bottom:0.5rem;">
                         </a>
                         <h3 class="mb-0">Software Developer</h3>
-                        <span class="spot-award" data-target="#certificate_modal" data-toggle="modal" onclick="fillCertificateData('./assets/images/certificates/Spot-Award-Amdocs.png', '#', true)">
+                        <span class="spot-award" data-target="#certificate_modal" data-toggle="modal" onclick="fillCertificateData('./assets/images/certificates/Spot-Award-Amdocs.png', '#', false)">
                             <i class="fa-solid fa-award fa-xl" alt="Spot Award" data-placement="right" data-toggle="tooltip" title="Spot Award"></i></span>
                         <p>
                             <ul>
@@ -544,7 +544,7 @@
                                     <div class="card-body d-flex flex-column">
                                         <h4 class="card-title ">Camunda Platform 8</h4>
                                         <span>Jan 2023</span>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary certificate-btn" id="cert-eclipse-vertx" data-target="#certificate_modal_carousel" data-toggle="modal" onclick="fillCertificateData('./assets/images/certificates/Vertx-Udemy-Certificate.jpg', 'https://www.udemy.com/certificate/UC-10f9bc01-3ea1-4d07-bc6e-099ba272a62b', true)">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary certificate-btn" id="cert-eclipse-vertx" data-target="#certificate_modal_carousel" data-toggle="modal" onclick="fillCertificateDataCarousel(false, './assets/images/certificates/1_C8_Platform_Overview.jpg', './assets/images/certificates/2_C8_Demonstration.jpg', './assets/images/certificates/3_C8_Whats_new.jpg', './assets/images/certificates/4_C8_Getting_started_with_process_modelling.jpg', './assets/images/certificates/5_C8_Getting_started_with_human_workflow.jpg' )">
                                             <i id="cert-eclipse-vertx" class="fas fa-external-link-square-alt"></i>
                                         </button>
                                     </div>
@@ -1028,12 +1028,27 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Certificate</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Certificates</h5>
                     <button aria-label="Close" class="close" data-dismiss="modal" type="button">
                         <span aria-hidden="true"><i class="fas fa-times"></i></span>
                     </button>
                 </div>
                 <div class="modal-body">
+                    <!-- carousel -->
+                    <div id='carouselImageIndicators' class='carousel carousel-dark slide' data-ride='carousel'>
+                        <ol class='carousel-indicators' id="carousel-indicators">
+                        </ol>
+                        <div class='carousel-inner' id='carousel-inner'>
+                        </div>
+                        <a class='carousel-control-prev' href='#carouselImageIndicators' role='button' data-slide='prev'>
+                            <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+                            <span class='sr-only'>Previous</span>
+                        </a>
+                        <a class='carousel-control-next' href='#carouselImageIndicators' role='button' data-slide='next'>
+                            <span class='carousel-control-next-icon' aria-hidden='true'></span>
+                            <span class='sr-only'>Next</span>
+                        </a>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-sm btn-secondary" data-dismiss="modal" type="button">Close</button>
