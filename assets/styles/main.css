@@ -399,7 +399,7 @@ a:active {
 }
 
 .cert_img {
-    width: 90%;
+    width: 100%;
     height: auto;
     display: block;
     margin: auto;
@@ -419,17 +419,15 @@ a:active {
 }
 
 .custom-card-style {
-    border-top: 5px solid var(--warning);
-
-    border-radius: 0px 0px 7px 7px;
-
+    border-top: 5px solid var(--primary-color);
+    border-radius: 2px 15px 2px 15px;
 }
 
 .custom-card-style,
 .card-deck>.card,
 .contact-icons>a,
 .social-icons>a {
-    box-shadow: 0 10px 15px 0 rgb(108 135 135 / 20%);
+    box-shadow: 5px 5px 6px 1px rgb(108 135 135 / 20%);
 }
 
 .bd-callout-warning {
@@ -515,4 +513,39 @@ a:active {
 
 img {
     pointer-events: none;
+}
+
+.img-size {
+    /*  padding: 0;
+    margin: 0; */
+    height: 450px;
+    width: 700px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23E64A19' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 48px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23E64A19' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 48px;
+}
+
+.carousel-indicators li {
+    background-color: var(--primary-color);
+}
+
+.modal-open {
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-right: 0 !important;
 }
