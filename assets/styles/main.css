@@ -551,3 +551,33 @@ img {
     overflow-y: scroll;
     padding-right: 0 !important;
 }
+
+.modal-inner {
+    position: relative;
+}
+
+.verify-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.7;
+    font-size: medium;
+    transition: all 0.3s linear;
+}
+
+.verify-btn:hover {
+    opacity: 1;
+}
+
+.hidden-text {
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 0;
+    display: inline-block;
+    transition: all 0.3s linear;
+}
+
+.verify-btn:hover .hidden-text {
+    width: 100px;
+}
