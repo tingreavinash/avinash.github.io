@@ -194,9 +194,17 @@ p.lead {
     .cert-img-box {
         border-right: 0px solid rgba(0, 0, 0, .125) !important;
         border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
-        height: 10rem;
-        display: grid;
-        align-content: center;
+        /*height: 10rem;*/
+        width: inherit;
+        display: flex;
+        max-height: 100px;
+        align-items: center;
+        justify-content: center;
+        filter: grayscale(100%);
+    }
+
+    .cert-img-box:hover {
+        filter: grayscale(0%);
     }
 
     .person-svg-mobile {
@@ -221,7 +229,8 @@ p.lead {
     }
 
     .mobile-fit-cert {
-        margin: 2rem;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .mobile-fit-activities {
@@ -402,18 +411,27 @@ a:active {
 
 .cert_img {
     width: 100%;
-    height: auto;
+    /* height: inherit; */
     display: block;
-    margin: auto;
+    /* margin: auto; */
     object-fit: scale-down;
+    max-height: inherit;
 }
 
 .cert-img-box {
     border-right: 1px solid rgba(0, 0, 0, .125);
-    height: 10rem;
-    display: grid;
-    align-content: center;
+    /*height: 10rem;*/
+    width: inherit;
+    display: flex;
+    max-height: 100px;
     border-bottom-width: 0px;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+
+.custom-card-style:hover .cert-img-box {
+    filter: grayscale(0%);
 }
 
 .list-inline {
@@ -421,16 +439,18 @@ a:active {
 }
 
 .custom-card-style {
-    border-top: 5px solid var(--primary-color);
-    border-radius: 2px 15px 2px 15px;
+    border-left: 5px solid var(--primary-color);
+    border-radius: 15px 2px 15px 2px;
     cursor: pointer;
+    margin-top: 1rem;
 }
 
-.custom-card-style,
-.card-deck>.card,
-.contact-icons>a,
-.social-icons>a {
-    box-shadow: 5px 5px 6px 1px rgb(108 135 135 / 20%);
+.resume-section .custom-card-style {
+    transition: all .2s linear;
+}
+
+.resume-section .custom-card-style:hover {
+    box-shadow: 5px 5px 4px 2px rgb(108 135 135 / 20%);
 }
 
 .bd-callout-warning {
@@ -585,4 +605,16 @@ img {
 
 .cert-date {
     width: fit-content;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
 }
+
+.my-flex {
+    display: flex;
+}
+
+.card-body{
+    position: relative;
+}
+
