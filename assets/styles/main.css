@@ -423,6 +423,7 @@ a:active {
 .custom-card-style {
     border-top: 5px solid var(--primary-color);
     border-radius: 2px 15px 2px 15px;
+    cursor: pointer;
 }
 
 .custom-card-style,
@@ -580,4 +581,8 @@ img {
 
 .verify-btn:hover .hidden-text {
     width: 100px;
+}
+
+.cert-date {
+    width: fit-content;
 }
