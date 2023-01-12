@@ -524,6 +524,10 @@ a:active {
     transition: all 0.3s;
 }
 
+.spot-award > img {
+    max-height: 2rem;
+}
+
 .spot-award:hover {
     cursor: pointer;
     color: #8E44AD;
