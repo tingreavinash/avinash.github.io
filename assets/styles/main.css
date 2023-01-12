@@ -201,7 +201,7 @@ p.lead {
         min-height: 100px;
         align-items: center;
         justify-content: center;
-        
+
     }
 
     .person-svg-mobile {
@@ -426,7 +426,7 @@ a:active {
     border-bottom-width: 0px;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 
@@ -524,7 +524,7 @@ a:active {
     transition: all 0.3s;
 }
 
-.spot-award > img {
+.spot-award>img {
     max-height: 2rem;
 }
 
@@ -606,8 +606,8 @@ img {
 .cert-date {
     width: fit-content;
     position: absolute;
-    right: 15px;
-    bottom: 15px;
+    top: 50%;
+    right: -10px;
 }
 
 .my-flex {
