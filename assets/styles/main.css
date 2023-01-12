@@ -198,13 +198,10 @@ p.lead {
         width: inherit;
         display: flex;
         max-height: 100px;
+        min-height: 100px;
         align-items: center;
         justify-content: center;
-        filter: grayscale(100%);
-    }
-
-    .cert-img-box:hover {
-        filter: grayscale(0%);
+        
     }
 
     .person-svg-mobile {
@@ -424,15 +421,13 @@ a:active {
     width: inherit;
     display: flex;
     max-height: 100px;
+    min-height: 100px;
     border-bottom-width: 0px;
     align-items: center;
     justify-content: center;
-    filter: grayscale(100%);
+    
 }
 
-.custom-card-style:hover .cert-img-box {
-    filter: grayscale(0%);
-}
 
 .list-inline {
     font-size: 2rem;
