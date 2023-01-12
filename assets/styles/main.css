@@ -185,7 +185,7 @@ p.lead {
         height: inherit !important;
     }
 
-    .cert_img_mobile {
+    .cert-img-mobile {
         width: 50% !important;
         object-fit: scale-down;
         padding: 5px;
@@ -406,13 +406,14 @@ a:active {
     color: #824027;
 }
 
-.cert_img {
+.cert-img {
     width: 100%;
     /* height: inherit; */
     display: block;
     /* margin: auto; */
     object-fit: scale-down;
     max-height: inherit;
+    padding: 5px;
 }
 
 .cert-img-box {
