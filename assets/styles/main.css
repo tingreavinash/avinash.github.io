@@ -423,14 +423,7 @@ a:active {
     border-radius: 5px 5px 5px 5px;
     cursor: pointer;
     margin-top: 1rem;
-}
-
-section.resume-section .custom-card-style {
-    transition: all .3s;
-}
-
-section.resume-section .custom-card-style:hover {
-    box-shadow: 3px 3px 3px 1px rgb(108 135 135 / 20%);
+    box-shadow: 0px 0px 6px 1px rgb(63 197 226 / 28%);
 }
 
 .bd-callout-warning {
@@ -592,7 +585,6 @@ img {
     position: absolute;
     bottom: 0.5rem;
     right: auto;
-    box-shadow: 2px 2px 2px 0px rgb(108 135 135 / 20%);
 }
 
 .my-flex {
@@ -603,6 +595,10 @@ img {
     width: fit-content;
     max-height: 3rem;
     position: absolute;
-    bottom: -1rem;
+    top: -1rem;
     right: -1.5rem;
+}
+
+.card-title {
+    font-size: small;
 }
