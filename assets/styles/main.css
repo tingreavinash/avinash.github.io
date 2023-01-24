@@ -599,6 +599,6 @@ img {
     right: -1.5rem;
 }
 
-.card-title {
+.card-body>p {
     font-size: small;
 }
