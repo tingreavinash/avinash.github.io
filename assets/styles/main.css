@@ -426,6 +426,16 @@ a:active {
     box-shadow: 0px 0px 6px 1px rgb(63 197 226 / 28%);
 }
 
+section.resume-section .custom-card-style {
+    transition: 0.5s all;
+}
+
+section.resume-section .custom-card-style:hover {
+    box-shadow: 0px 0px 6px 1px rgb(226 63 162 / 44%);
+}
+
+
+
 .bd-callout-warning {
     border-left-color: #a1d281e6 !important;
 }
