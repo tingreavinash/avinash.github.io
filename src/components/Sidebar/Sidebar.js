@@ -5,34 +5,39 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 
 function Sidebar(props) {
-    const [githubData, setGithubData] = useState([]);
+    const [lastUpdatedTime, setLastUpdatedTime] = useState("");
 
     useEffect(() => {
+        // TODO: Use octokit here
+        var options = {  
+            method: 'GET',
+            headers: {
+              'Accept': 'application/vnd.github+json',
+              'Authorization': 'Bearer <TOKEN>',
+              'X-GitHub-Api-Version': '2022-11-28'
+            }
+          }
+
         // fetch data
         const dataFetch = async () => {
             const data = await (
-                await fetch(
-                    "https://api.github.com/repos/tingreavinash/tingreavinash.github.io/commits?per_page=1"
-                )
+                await fetch('https://api.github.com/repos/tingreavinash/tingreavinash.github.io/commits?per_page=1')
             ).json();
 
             // Add delay for testing
             //await new Promise( res => setTimeout(res, 2000) );
 
             // set state when the data received
-            setGithubData(data);
+            //setGithubData(data);
+
+            if (data.length > 0) {
+                var time = moment(data[0].commit.committer.date).fromNow();
+                setLastUpdatedTime(time);
+            }
         };
 
         dataFetch();
     }, []);
-
-    function getCommitDuration() {
-        if (githubData.length > 0) {
-            return moment(githubData[0].commit.committer.date).fromNow();
-        } else {
-            return null;
-        }
-    }
 
     return (
         <div>
@@ -137,17 +142,9 @@ function Sidebar(props) {
                         </Link>
                         <br />
                         <div style={{ color: "white" }}>
-                            {getCommitDuration() !== null ? (
-                                <span id="last-update-time" className="badge rounded-pill bg-warning text-dark">
-                                    Updated {getCommitDuration()}
+                        <span id="last-update-time" className="badge rounded-pill bg-warning text-dark">
+                                    Updated {lastUpdatedTime}
                                 </span>
-
-                            ) : (
-                                <span id="last-update-time" className="badge rounded-pill bg-warning text-dark">
-                                    Loading
-                                </span>
-                            )
-                            }
                         </div>
                     </ul>
                 </div>
