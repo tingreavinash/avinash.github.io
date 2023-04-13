@@ -104,7 +104,11 @@
         {
             "category": "Miscellaneous",
             "skills": [
-                "AWS",
+                "Amazon Web Services (AWS)",
+                "Pivotal Cloud Foundry (PCF)",
+                "JUnit",
+                "Mockito",
+                "WireMock",
                 "Docker",
                 "Kubernetes",
                 "Camunda Platform",

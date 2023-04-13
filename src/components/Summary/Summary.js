@@ -16,10 +16,10 @@ function Summary(props) {
         var years = today.diff(startDate, 'year');
         startDate.add(years, 'years');
 
-        var months = today.diff(startDate, 'months');
-        startDate.add(months, 'months');
+        var months = today.diff(startDate, 'months') + 2;
+        //startDate.add(months, 'months');
 
-        var days = today.diff(startDate, 'days');
+        //var days = today.diff(startDate, 'days');
 
         var totalExp;
         if (months === 12) {
@@ -28,10 +28,25 @@ function Summary(props) {
         } else if (months === 0) {
             totalExp = years + " years";
         } else {
-            totalExp = years + " years " + months + " months and " + days + " days";
+            totalExp = years + " years and " + months + " months";
         }
         return totalExp;
     }
+
+    // const [letterClass, setLetterClass] = useState('text-animate');
+    // const nameArray = "Avinash".split("");
+    // console.log(nameArray);
+
+    // const textAnimate = () => {
+    //     return setTimeout(() => {
+    //         setLetterClass('text-animate-hover')
+    //     }, 4000)
+    // }
+
+    // useState(() => {
+    //     textAnimate();
+    // }, [])
+
     return (
         <div>
             <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id={props.id}>
@@ -41,13 +56,14 @@ function Summary(props) {
                         <img alt="Avinash Tingre" className="img-fluid img-profile rounded-circle mx-auto mb-2" src={process.env.PUBLIC_URL + '/assets/images/profile.jpeg'} />
                             
                         </div>
+                        
                         <h1 className="mb-0" data-aos="fade-down">Avinash
                             <span className="text-primary"> Tingre</span>
                         </h1>
                         <br /><br />
                         <ul className="lead mb-5" style={{ textAlign: "left" }} data-aos="fade-right">
 
-                            <li>Software engineer with {calculateTotalExperience()} of experience in developing and implementing <mark>robust and scalable</mark> web applications.
+                            <li>Software engineer with <mark>{calculateTotalExperience()}</mark> of experience in developing and implementing <mark>robust and scalable</mark> web applications.
                             </li>
                             <li>Adept in database technologies such as <mark>Oracle and Postgres.</mark></li>
                             <li>Proven track record of delivering <mark>high-quality software solutions.</mark></li>

@@ -20,6 +20,7 @@ function App() {
       easing: 'ease-in-out-back',
       once: true
     });
+
   }, []);
 
   return (
