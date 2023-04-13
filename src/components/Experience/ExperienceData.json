@@ -1,77 +1,85 @@
-[
-    {
-        "id": 1,
-        "companyName": "Opus",
-        "companyLogo": "/assets/images/opus_logo.svg",
-        "companyUrl": "https://www.opusconsulting.com",
-        "jobTitle": "Senior Tech Engineer",
-        "awardImages": [
-            "/assets/images/certificates/Spot-Award-Opus.png"
-        ],
-        "description": [
-            "Earned two <mark>individual awards</mark> for exceptional contributions to software development projects.",
-            "Individual contributor in <mark>MasterCard Click-To-Pay</mark> feature.",
-            "Developed an <mark>Audit Logging</mark> framework to intercept and log API requests in microservices for comprehensive system activity tracking.",
-            "Streamlined Software Security Framework (SSF) features, including <mark>Data Encryption</mark> and Data Masking, to enhance application security.",
-            "Implemented an <mark>Event Logging</mark> framework and standardized code versioning and merging processes for improved system monitoring and change tracking.",
-            "Developed secure application modules using code analysis tools like <mark>SonarQube and SonarLint.</mark>",
-            "Implemented <mark>JWT authorization</mark> globally in one service for payment processing and worked on microservices orchestration using Camunda.",
-            "Created BPMN models using <mark>Camunda Zeebe</mark> modeler for clear communication across teams."
-        ],
-        "startDate": "Feb 2022",
-        "endDate": "present"
-    },
-    {
-        "id": 2,
-        "companyName": "Cerence",
-        "companyLogo": "/assets/images/cerence_logo.svg",
-        "companyUrl": "https://www.cerence.com",
-        "jobTitle": "Software Engineer",
-        "awardImages": [],
-        "description": [
-            "Developed features for Cerence's Natural Language Processing Server <mark>(NLPS)</mark> using Agile Scrum methodology, improving its functionality and performance.",
-            "Designed and built a <mark>data extraction utility</mark> to manage and analyze JSON data.",
-            "Tested and deployed <mark>docker</mark> images to Kubernetes for optimal system performance.",
-            "Collaborated with QA and deployment teams to ensure high-quality software solutions and effective deployment strategies.",
-            "Troubleshot and resolved production issues to minimize downtime and ensure uninterrupted service delivery."
-        ],
-        "startDate": "May 2021",
-        "endDate": "Feb 2022"
-    },
-    {
-        "id": 3,
-        "companyName": "Netcracker",
-        "companyLogo": "/assets/images/netcracker-logo.svg",
-        "companyUrl": "https://www.netcracker.com",
-        "jobTitle": "Software Engineer",
-        "awardImages": [],
-        "description": [
-            "Agile development using <mark>Jira, Jenkins, SVN</mark>.",
-            "Worked with the senior software developer to understand the product and technologies used. ",
-            "Modelling of network devices into logical entities."
-        ],
-        "startDate": "Mar 2021",
-        "endDate": "May 2021",
-        "isHiddden": true
-    },
-    {
-        "id": 4,
-        "companyName": "Amdocs",
-        "companyLogo": "/assets/images/amdocs-logo.png",
-        "companyUrl": "https://www.amdocs.com",
-        "jobTitle": "Software Developer",
-        "awardImages": [
-            "/assets/images/certificates/Spot-Award-Amdocs.png"
-        ],
-        "description": [
-            "Developed <mark>RESTful web service</mark> to handle data transmission between in-house app and vendor DNS management app for efficient DNS address registration.",
-            "Automated package deployment on Linux through <mark>Ansible</mark> and shell scripting.",
-            "Contributed to product architectural design and analysis, actively participating in meetings and discussions.",
-            "Monitored microservices logs with <mark>EFK Stack</mark> - Elasticsearch, Fluentd, and Kibana.",
-            "Orchestrated Docker containers with <mark>Kubernetes</mark> platform for efficient deployment and management of applications.",
-            "Managed code with <mark>GitLab/GitHub</mark> and contributed to development of integrated CI/CD pipeline for code reviews, testing, and deployment."
-        ],
-        "startDate": "Oct 2017",
-        "endDate": "Feb 2021"
-    }
-]
+{
+    "experiences": [
+        {
+            "companyName": "Opus",
+            "companyLogo": "/assets/images/opus_logo.svg",
+            "companyUrl": "https://www.opusconsulting.com",
+            "jobTitle": "Senior Tech Engineer",
+            "awards": [
+                {
+                    "title": "Individual Award (Q2 2022)",
+                    "img": "/assets/images/certificates/Spot-Award-Opus.png"
+                },
+                {
+                    "title": "Individual Award (Q4 2022)",
+                    "img": "/assets/images/certificates/Spot-Award-Opus.png"
+                }
+            ],
+            "description": [
+                "Earned two <mark>individual awards</mark> for exceptional contributions to software development projects.",
+                "Individual contributor in <mark>MasterCard Click-To-Pay</mark> feature.",
+                "Developed an <mark>Audit Logging</mark> framework to intercept and log API requests in microservices for comprehensive system activity tracking.",
+                "Streamlined Software Security Framework (SSF) features, including <mark>Data Encryption</mark> and Data Masking, to enhance application security.",
+                "Implemented an <mark>Event Logging</mark> framework and standardized code versioning and merging processes for improved system monitoring and change tracking.",
+                "Developed secure application modules using code analysis tools like <mark>SonarQube and SonarLint.</mark>",
+                "Implemented <mark>JWT authorization</mark> globally in one service for payment processing and worked on microservices orchestration using Camunda.",
+                "Created BPMN models using <mark>Camunda Zeebe</mark> modeler for clear communication across teams."
+            ],
+            "startDate": "Feb 2022",
+            "endDate": "present"
+        },
+        {
+            "companyName": "Cerence",
+            "companyLogo": "/assets/images/cerence_logo.svg",
+            "companyUrl": "https://www.cerence.com",
+            "jobTitle": "Software Engineer",
+            "awards": [],
+            "description": [
+                "Developed features for Cerence's Natural Language Processing Server <mark>(NLPS)</mark> using Agile Scrum methodology, improving its functionality and performance.",
+                "Designed and built a <mark>data extraction utility</mark> to manage and analyze JSON data.",
+                "Tested and deployed <mark>docker</mark> images to Kubernetes for optimal system performance.",
+                "Collaborated with QA and deployment teams to ensure high-quality software solutions and effective deployment strategies.",
+                "Troubleshot and resolved production issues to minimize downtime and ensure uninterrupted service delivery."
+            ],
+            "startDate": "May 2021",
+            "endDate": "Feb 2022"
+        },
+        {
+            "companyName": "Netcracker",
+            "companyLogo": "/assets/images/netcracker-logo.svg",
+            "companyUrl": "https://www.netcracker.com",
+            "jobTitle": "Software Engineer",
+            "awards": [],
+            "description": [
+                "Agile development using <mark>Jira, Jenkins, SVN</mark>.",
+                "Worked with the senior software developer to understand the product and technologies used. ",
+                "Modelling of network devices into logical entities."
+            ],
+            "startDate": "Mar 2021",
+            "endDate": "May 2021",
+            "isHiddden": true
+        },
+        {
+            "companyName": "Amdocs",
+            "companyLogo": "/assets/images/amdocs-logo.png",
+            "companyUrl": "https://www.amdocs.com",
+            "jobTitle": "Software Developer",
+            "awards": [
+                {
+                    "title": "Spot Award",
+                    "img": "/assets/images/certificates/Spot-Award-Amdocs.png"
+                }
+            ],
+            "description": [
+                "Developed <mark>RESTful web service</mark> to handle data transmission between in-house app and vendor DNS management app for efficient DNS address registration.",
+                "Automated package deployment on Linux through <mark>Ansible</mark> and shell scripting.",
+                "Contributed to product architectural design and analysis, actively participating in meetings and discussions.",
+                "Monitored microservices logs with <mark>EFK Stack</mark> - Elasticsearch, Fluentd, and Kibana.",
+                "Orchestrated Docker containers with <mark>Kubernetes</mark> platform for efficient deployment and management of applications.",
+                "Managed code with <mark>GitLab/GitHub</mark> and contributed to development of integrated CI/CD pipeline for code reviews, testing, and deployment."
+            ],
+            "startDate": "Oct 2017",
+            "endDate": "Feb 2021"
+        }
+    ]
+}

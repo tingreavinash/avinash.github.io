@@ -19,7 +19,7 @@ function Experience(props) {
                         imgSrc={certificateImage}
                         onHide={() => setModalShow(false)}
                     />
-                    {experienceData.map((item, index) => {
+                    {experienceData.experiences.map((item, index) => {
                         if (item.isHiddden === true) {
                             return <div key={index}></div>
                         }
@@ -30,15 +30,16 @@ function Experience(props) {
                                         <img src={process.env.PUBLIC_URL + item.companyLogo} alt="Company Logo" style={{ maxWidth: "8rem", marginBottom: "0.5rem" }} />
                                     </a>
                                     <h3 className="mb-0">{item.jobTitle}</h3>
-                                    {item.awardImages.length > 0 &&
-                                        <span className="spot-award" title="Certificate of recognition! Click for more information" data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                    {item.awards.map((award, index) => {
+                                        return <span key={index} className="spot-award" title={award.title} data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
                                             onClick={() => {
                                                 setModalShow(true);
-                                                setCertificateImage(item.awardImages);
+                                                setCertificateImage([award.img]);
                                             }}>
-                                            <img alt="Spot Award" src={process.env.PUBLIC_URL + "/assets/images/certificate-svgrepo-com-1.svg"} />
+                                            <img alt="Spot Award" src={process.env.PUBLIC_URL + "/assets/icons/certificate/certificate-(4).svg"} />
                                         </span>
-                                    }
+                                    })}
+
 
                                     <p>
                                         <ul>

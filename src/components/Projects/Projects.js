@@ -16,7 +16,7 @@ function Projects(props) {
                     </h2>
 
                     <div className="row justify-content-center">
-                        {projectData.sort((a, b) => {
+                        {projectData.projects.sort((a, b) => {
                             return new Date(b.date) - new Date(a.date)
                         })
                             .map((item, index) => {

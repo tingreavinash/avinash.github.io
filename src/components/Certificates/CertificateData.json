@@ -1,7 +1,6 @@
 {
     "certificates": [
         {
-            "id": 1,
             "imgSrc": [
                 "/assets/images/certificates/CognitiveClass_Modernizing_Java_Apps.jpg"
             ],
@@ -12,7 +11,6 @@
             "url": "https://courses.cognitiveclass.ai/certificates/9658a195ba044033be86089575213c76"
         },
         {
-            "id": 2,
             "imgSrc": [
                 "/assets/images/certificates/CognitiveClass_Kubernetes.jpg"
             ],
@@ -23,7 +21,6 @@
             "url": "https://courses.cognitiveclass.ai/certificates/a9869d7e88804695b7079326bfabcb8a"
         },
         {
-            "id": 3,
             "imgSrc": [
                 "/assets/images/certificates/Vertx-Udemy-Certificate.jpg"
             ],
@@ -34,7 +31,6 @@
             "url": "https://www.udemy.com/certificate/UC-10f9bc01-3ea1-4d07-bc6e-099ba272a62b"
         },
         {
-            "id": 4,
             "imgSrc": [
                 "/assets/images/certificates/1_C8_Platform_Overview.jpg",
                 "/assets/images/certificates/2_C8_Demonstration.jpg",
@@ -49,7 +45,6 @@
             "url": null
         },
         {
-            "id": 5,
             "imgSrc": [
                 "/assets/images/certificates/Microservices_Springboot.PNG"
             ],
@@ -60,7 +55,6 @@
             "url": "https://www.coursera.org/account/accomplishments/certificate/PYXDNN8MHFD6"
         },
         {
-            "id": 6,
             "imgSrc": [
                 "/assets/images/certificates/OOP_Java.PNG"
             ],
@@ -71,7 +65,6 @@
             "url": "https://www.coursera.org/account/accomplishments/certificate/HSNJMUE7SDE7"
         },
         {
-            "id": 7,
             "imgSrc": [
                 "/assets/images/certificates/AWS_Cloud_Practitioner_Essentials.png"
             ],
@@ -82,7 +75,6 @@
             "url": "https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=UiD7_LFWVEOC_MfWiY2wkw2"
         },
         {
-            "id": 8,
             "imgSrc": [
                 "/assets/images/certificates/Java_GreatLearning.png"
             ],
@@ -93,7 +85,6 @@
             "url": "https://verify.greatlearning.in/HVNRIFGA"
         },
         {
-            "id": 9,
             "imgSrc": [
                 "/assets/images/certificates/Java_Hackerrank.jpeg"
             ],
@@ -104,7 +95,6 @@
             "url": "https://www.hackerrank.com/certificates/4514f7619a20"
         },
         {
-            "id": 10,
             "imgSrc": [
                 "/assets/images/certificates/CognitiveClass_Docker.png"
             ],

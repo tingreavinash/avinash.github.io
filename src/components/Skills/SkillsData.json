@@ -1,120 +1,132 @@
 {
     "featuredSkills": [
         {
-            "icon": "/assets/icons/java.svg",
+            "icon": "/assets/icons/skills/java-4-logo.svg",
             "title": "Java"
         },
         {
-            "icon": "/assets/icons/spring-boot.svg",
-            "title": "Spring Boot"
+            "icon": "/assets/icons/skills/spring.svg",
+            "title": "Spring Framework"
         },
         {
-            "icon": "/assets/icons/oracle-sql.png",
-            "title": "Oracle SQL"
+            "icon": "/assets/icons/skills/sql.svg",
+            "title": "SQL"
         },
         {
-            "icon": "/assets/icons/docker.svg",
+            "icon": "/assets/icons/skills/docker.svg",
             "title": "Docker"
         },
         {
-            "icon": "/assets/icons/kubernetes.svg",
+            "icon": "/assets/icons/skills/kubernetes.svg",
             "title": "Kubernetes"
         },
         {
-            "icon": "/assets/icons/jenkins.svg",
+            "icon": "/assets/icons/skills/jenkins.svg",
             "title": "Jenkins"
         },
         {
-            "icon": "/assets/icons/js.svg",
+            "icon": "/assets/icons/skills/js.svg",
             "title": "JavaScript"
         },
         {
-            "icon": "/assets/icons/angular.svg",
-            "title": "AngularJS"
+            "icon": "/assets/icons/skills/react.svg",
+            "title": "React.js"
         },
         {
-            "icon": "/assets/icons/git.svg",
+            "icon": "/assets/icons/skills/git.svg",
             "title": "Git"
         },
         {
-            "icon": "/assets/icons/aws.svg",
-            "title": "AWS"
+            "icon": "/assets/icons/skills/gcp.svg",
+            "title": "Google Cloud Platform (GCP)"
         },
         {
-            "icon": "/assets/icons/Postgresql_elephant.svg",
+            "icon": "/assets/icons/skills/postgresql.svg",
             "title": "PostgresQL"
         },
         {
-            "icon": "/assets/icons/linux.svg",
+            "icon": "/assets/icons/skills/linux.svg",
             "title": "Linux"
         }
     ],
     "techStack": [
         {
-            "category": "Language & Frameworks",
+            "category": "Backend Development",
             "skills": [
                 "Java",
                 "Spring Boot",
                 "Spring Cloud",
-                "Hibernate",
-                "JPA",
-                "Eclipse Vert.x"
+                "Hibernate"
             ]
         },
         {
-            "category": "Web Technologies",
+            "category": "Frontend Development",
             "skills": [
+                "React.js",
+                "Javascript",
                 "HTML",
-                "CSS",
-                "JavaScript",
-                "ReactJS"
+                "CSS"
             ]
         },
         {
-            "category": "Database",
+            "category": "Data Engineering",
             "skills": [
                 "Oracle SQL",
-                "Postgres"
+                "PostgresQL",
+                "Apache Kafka",
+                "Splunk"
             ]
         },
         {
-            "category": "Web Servers",
+            "category": "System Design",
             "skills": [
-                "Oracle WebLogic"
+                "Data Modeling",
+                "System Architecture",
+                "API Design"
             ]
         },
         {
-            "category": "SCM & Issue Tracking",
+            "category": "Microservices",
             "skills": [
+                "Docker",
+                "Kubernetes"
+            ]
+        },
+        {
+            "category": "Scalable Architecture",
+            "skills": [
+                "Load Balancing",
+                "Caching",
+                "Distributed Databases"
+            ]
+        },
+        {
+            "category": "Cloud Computing",
+            "skills": [
+                "Pivotal Cloud Foundry (PCF)",
+                "Google Cloud Platform (GCP)",
+                "Cloud-Native Applications"
+            ]
+        },
+        {
+            "category": "DevOps",
+            "skills": [
+                "Jenkins",
                 "Git",
-                "Gitlab",
-                "Jira",
-                "Bitbucket"
-            ]
-        },
-        {
-            "category": "IDE",
-            "skills": [
-                "IntelliJ IDEA",
-                "Eclipse",
+                "Ansible",
+                "JUnit",
+                "Mockito",
+                "WireMock",
                 "Maven",
                 "Gradle"
             ]
         },
         {
-            "category": "Miscellaneous",
+            "category": "Other",
             "skills": [
-                "Amazon Web Services (AWS)",
-                "Pivotal Cloud Foundry (PCF)",
-                "JUnit",
-                "Mockito",
-                "WireMock",
-                "Splunk",
-                "Docker",
-                "Kubernetes",
                 "Camunda Platform",
                 "Linux",
-                "Microservices"
+                "IntelliJ IDEA"
             ]
         }
     ]

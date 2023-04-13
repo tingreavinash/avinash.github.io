@@ -42,7 +42,7 @@ function Certificates(props) {
                                         <div className="card-body d-flex flex-column ">
                                             <p>{item.name}</p>
                                             <span className="badge bg-dark cert-date">{monthNames[new Date(item.completionDate).getMonth()]} {new Date(item.completionDate).getFullYear()}</span>
-                                            <img alt="Certificate Badge" className="cert-icon" src={process.env.PUBLIC_URL + '/assets/images/certificate-svgrepo-com-3.svg'} />
+                                            <img alt="Certificate Badge" className="cert-icon" src={process.env.PUBLIC_URL + '/assets/icons/certificate/certificate-(4).svg'} />
                                         </div>
                                     </div>
                                 </div>;
