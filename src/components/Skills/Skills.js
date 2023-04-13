@@ -15,7 +15,7 @@ function Skills(props) {
                         <div className='row skill-icons mb-5'>
                             {skillsData.featuredSkills.map((skill, index) => {
                                 return <div key={index} className='col-2 justify-content-center'>
-                                    <img src={process.env.PUBLIC_URL + skill.icon} alt={skill.title} data-bs-placement="bottom" title={skill.title} data-bs-toggle="tooltip" data-aos="fade-right" />
+                                    <img src={process.env.PUBLIC_URL + skill.icon} alt={skill.title} data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" title={skill.title} data-bs-toggle="tooltip" data-aos="fade-right" />
                                 </div>
                             })}
                         </div>

@@ -31,7 +31,7 @@ function Experience(props) {
                                     </a>
                                     <h3 className="mb-0">{item.jobTitle}</h3>
                                     {item.awardImages.length > 0 &&
-                                        <span className="spot-award"
+                                        <span className="spot-award" title="Certificate of recognition! Click for more information" data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
                                             onClick={() => {
                                                 setModalShow(true);
                                                 setCertificateImage(item.awardImages);
