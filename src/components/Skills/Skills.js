@@ -15,12 +15,9 @@ function Skills(props) {
                         <div className='row skill-icons mb-5'>
                             {skillsData.featuredSkills.map((skill, index) => {
                                 return <div key={index} className='col-2 justify-content-center'>
-                                    <img src={process.env.PUBLIC_URL + skill.icon} alt={skill.title} data-placement="bottom" data-toggle="tooltip" data-aos="fade-right" title={skill.title} />
+                                    <img src={process.env.PUBLIC_URL + skill.icon} alt={skill.title} data-bs-placement="bottom" title={skill.title} data-bs-toggle="tooltip" data-aos="fade-right" />
                                 </div>
-
                             })}
-                            {/* TODO: Add new skills --> PCF, Wiremock, Apache Splunk*/}
-                            {/* TODO: Replace broken svg icons/images */}
                         </div>
 
                     </div>

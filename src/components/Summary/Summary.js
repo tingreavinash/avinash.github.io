@@ -69,24 +69,24 @@ function Summary(props) {
                             <li>Proven track record of delivering <mark>high-quality software solutions.</mark></li>
                         </ul>
                         <div className="social-icons" data-aos="fade-right">
-                            <a data-placement="top" data-toggle="tooltip" href="https://www.linkedin.com/in/tingreavinash/" target="_blank" rel="noreferrer" title="LinkedIn">
+                            <a data-bs-placement="top" data-bs-toggle="tooltip" href="https://www.linkedin.com/in/tingreavinash/" target="_blank" rel="noreferrer" title="LinkedIn">
                                 <FaLinkedinIn />
                             </a>
-                            <a data-placement="top" data-toggle="tooltip" href="https://tingreavinash.medium.com/" target="_blank" rel="noreferrer" title="Medium">
+                            <a data-bs-placement="top" data-bs-toggle="tooltip" href="https://tingreavinash.medium.com/" target="_blank" rel="noreferrer" title="Medium">
                                 <BsMedium />
                             </a>
-                            <a data-placement="top" data-toggle="tooltip" href="https://github.com/tingreavinash" target="_blank" rel="noreferrer" title="Github">
+                            <a data-bs-placement="top" data-bs-toggle="tooltip" href="https://github.com/tingreavinash" target="_blank" rel="noreferrer" title="Github">
                                 <BsGithub />
                             </a>
-                            <a data-placement="top" data-toggle="tooltip" href="https://stackoverflow.com/u/12715840" target="_blank" rel="noreferrer" title="StackOverflow">
+                            <a data-bs-placement="top" data-bs-toggle="tooltip" href="https://stackoverflow.com/u/12715840" target="_blank" rel="noreferrer" title="StackOverflow">
                                 <BsStackOverflow />
                             </a>
                         </div>
                         <div className="contact-icons" data-aos="fade-right">
-                            <a data-placement="bottom" data-toggle="tooltip" href="mailto:tingre.avinash@gmail.com" target="_blank" rel="noreferrer" title="Email">
+                            <a data-bs-placement="bottom" data-bs-toggle="tooltip" href="mailto:tingre.avinash@gmail.com" target="_blank" rel="noreferrer" title="Email">
                                 <IoMail /> Drop a Mail
                             </a>
-                            <a data-placement="bottom" data-toggle="tooltip" href="https://t.me/avinash4848" target="_blank" rel="noreferrer" title="Telegram">
+                            <a data-bs-placement="bottom" data-bs-toggle="tooltip" href="https://t.me/avinash4848" target="_blank" rel="noreferrer" title="Telegram">
                                 <FaTelegramPlane /> Say Hello
                             </a>
                         </div>

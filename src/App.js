@@ -16,6 +16,18 @@ import { HashLoader } from 'react-spinners';
 function App() {
   const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    const tooltipList = tooltipTriggerList.map((tooltipTriggerEl) => {
+      return new window.bootstrap.Tooltip(tooltipTriggerEl, {
+        boundary: 'window'
+      });
+    });
+
+    return () => {
+      tooltipList.forEach((tooltip) => tooltip.dispose());
+    };
+  })
 
   useEffect(() => {
     AOS.init({
