@@ -1,0 +1,18 @@
+.spot-award {
+    cursor: pointer;
+    color: #8E44AD;
+    box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 10px -6px;
+    will-change: box-shadow, transform;
+    transition: box-shadow 0.4s ease 0s, transform 0.4s ease 0s;
+}
+
+.spot-award>img {
+    max-height: 2rem;
+}
+
+.spot-award:hover {
+    cursor: pointer;
+    color: #8E44AD;
+    box-shadow: rgba(0, 44, 155, 0.15) 0px 10px 10px -2px;
+    transform: translateY(-4px);
+}

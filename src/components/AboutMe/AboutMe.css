@@ -1,0 +1,24 @@
+.bd-callout-warning {
+    border-left-color: #a1d281e6 !important;
+}
+
+.bd-callout {
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-left-width: .45rem;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    background-color: #acd5913b;
+
+}
+
+.bd-callout>h3 {
+    text-transform: none;
+}
+
+
+.summary-skills>.chip {
+    font-size: 15px !important;
+    line-height: 1.5rem;
+    margin: 2px;
+}

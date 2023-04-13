@@ -1,0 +1,17 @@
+.card-title {
+    text-transform: none;
+}
+
+.project-tech-stack {
+    font-size: large;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .row > div[class*='col-'] {
+   display: grid;
+ }
+ 

@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab&&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i');
+
+/* @import url('person.css');
+@import url('scrollbar.css');
+@import url('colors.css');
+@import url('contact.css');
+@import url('preloader.css'); */
+
+:root {
+    --primary-color: #E64A19;
+    --main-bg-color: #E64A19;
+    --pale-green: #5bb511;
+    --pale-yellow: #f1c40f;
+    --chip-bg-color: #bdbdbd;
+    --mark-background: #fff09b;
+    --body-bg: #fff;
+    --custom-shadow: 0 10px 20px 0 rgb(108 135 135 / 20%);
+    --text-color: #5e6266;
+    --dark-grey: #495057;
+    --heading-color: #343a40;
+    --navbar-outline-color: #d48a6e;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    padding-top: 54px;
+    color: var(--text-color);
+    background: var(--body-bg);
+    text-align: left;
+}
+
+::selection {
+    background-color: var(--pale-yellow);
+    color: black;
+}
+
+
+
+
+mark {
+    transition: all 0.1s;
+}
+
+mark:hover {
+    background-color: var(--mark-background);
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 1rem;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.2rem;
+    border-radius: 0.3rem;
+    opacity: 1;
+    transition: all 0.2s;
+    margin: 2px;
+}
+
+
+.chip-border-primary {
+    color: black;
+    opacity: 0.9;
+    border: 1px solid black;
+    transition: all 0.2s;
+}
+
+.chip-border-primary:hover {
+    background-color: black;
+    color: white;
+}
+
+th {
+    opacity: 0.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--heading-color);
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.5rem solid rgba(175, 172, 172, 0.2);
+        border-radius: 15% !important;
+        transition: all 0.2s;
+    }
+
+    .img-profile:hover {
+        border: 0.2rem solid rgba(175, 172, 172, 0.2);
+    }
+
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .subheading {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+        line-height: 4rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .table {
+        font-size: small;
+    }
+
+
+    p.lead {
+        font-size: small;
+    }
+
+    .resume-date {
+        font-size: small;
+    }
+
+    .chip {
+        font-size: small;
+        line-height: 1rem;
+    }
+
+    ul {
+        font-size: small !important;
+    }
+
+    .skill-icons>div>img {
+        width: 2rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+        padding-left: 17rem;
+    }
+
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
+
+section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+    min-width: none;
+}
+
+@media (min-width: 768px) {
+    section.resume-section {
+        min-height: 100vh;
+    }
+
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem;
+    }
+}
+
+.resume-date-box {
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #824027;
+}
+
+
+/**************/
+
+.section-heading::after {
+    display: block;
+    content: "";
+    width: 22.5%;
+    max-width: 130px;
+    height: 3px;
+    background: linear-gradient(135deg, #fa5656 0%, #f0cf2d 100%);
+    position: relative;
+    top: 12px;
+    left: 4px;
+}
+
+
+
+img {
+    pointer-events: none;
+}

@@ -1,0 +1,116 @@
+{
+    "featuredSkills": [
+        {
+            "icon": "/assets/icons/java.svg",
+            "title": "Java"
+        },
+        {
+            "icon": "/assets/icons/spring-boot.svg",
+            "title": "Spring Boot"
+        },
+        {
+            "icon": "/assets/icons/oracle-sql.png",
+            "title": "Oracle SQL"
+        },
+        {
+            "icon": "/assets/icons/docker.svg",
+            "title": "Docker"
+        },
+        {
+            "icon": "/assets/icons/kubernetes.svg",
+            "title": "Kubernetes"
+        },
+        {
+            "icon": "/assets/icons/jenkins.svg",
+            "title": "Jenkins"
+        },
+        {
+            "icon": "/assets/icons/js.svg",
+            "title": "JavaScript"
+        },
+        {
+            "icon": "/assets/icons/angular.svg",
+            "title": "AngularJS"
+        },
+        {
+            "icon": "/assets/icons/git.svg",
+            "title": "Git"
+        },
+        {
+            "icon": "/assets/icons/aws.svg",
+            "title": "AWS"
+        },
+        {
+            "icon": "/assets/icons/Postgresql_elephant.svg",
+            "title": "PostgresQL"
+        },
+        {
+            "icon": "/assets/icons/linux.svg",
+            "title": "Linux"
+        }
+    ],
+    "techStack": [
+        {
+            "category": "Language & Frameworks",
+            "skills": [
+                "Java",
+                "Spring Boot",
+                "Spring Cloud",
+                "Hibernate",
+                "JPA",
+                "Eclipse Vert.x"
+            ]
+        },
+        {
+            "category": "Web Technologies",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "ReactJS"
+            ]
+        },
+        {
+            "category": "Database",
+            "skills": [
+                "Oracle SQL",
+                "Postgres"
+            ]
+        },
+        {
+            "category": "Web Servers",
+            "skills": [
+                "Oracle WebLogic"
+            ]
+        },
+        {
+            "category": "SCM & Issue Tracking",
+            "skills": [
+                "Git",
+                "Gitlab",
+                "Jira",
+                "Bitbucket"
+            ]
+        },
+        {
+            "category": "IDE",
+            "skills": [
+                "IntelliJ IDEA",
+                "Eclipse",
+                "Maven",
+                "Gradle"
+            ]
+        },
+        {
+            "category": "Miscellaneous",
+            "skills": [
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "Camunda Platform",
+                "Linux",
+                "Microservices"
+            ]
+        }
+    ]
+}
