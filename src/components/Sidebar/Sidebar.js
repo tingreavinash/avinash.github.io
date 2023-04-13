@@ -9,14 +9,14 @@ function Sidebar(props) {
 
     useEffect(() => {
         // TODO: Use octokit here
-        var options = {  
-            method: 'GET',
-            headers: {
-              'Accept': 'application/vnd.github+json',
-              'Authorization': 'Bearer <TOKEN>',
-              'X-GitHub-Api-Version': '2022-11-28'
-            }
-          }
+        // var options = {  
+        //     method: 'GET',
+        //     headers: {
+        //       'Accept': 'application/vnd.github+json',
+        //       'Authorization': 'Bearer <TOKEN>',
+        //       'X-GitHub-Api-Version': '2022-11-28'
+        //     }
+        //   }
 
         // fetch data
         const dataFetch = async () => {
@@ -28,8 +28,6 @@ function Sidebar(props) {
             //await new Promise( res => setTimeout(res, 2000) );
 
             // set state when the data received
-            //setGithubData(data);
-
             if (data.length > 0) {
                 var time = moment(data[0].commit.committer.date).fromNow();
                 setLastUpdatedTime(time);
@@ -41,7 +39,7 @@ function Sidebar(props) {
 
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top custom-scrollbar-css" id="sideNav">
+            <nav className="navbar custom-navbar navbar-expand-lg navbar-dark bg-primary fixed-top custom-scrollbar-css" id="sideNav">
 
                 <a type="button" className="navbar-brand js-scroll-trigger" href="#root" onClick={scroll.scrollToTop()}>
                     <span className="d-block d-lg-none" data-aos="fade-right">Avinash Tingre</span>

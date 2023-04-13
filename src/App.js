@@ -11,10 +11,10 @@ import Resources from './components/Resources/Resources';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect, useState } from 'react'
-import Preloader from './components/Preloader/Preloader';
+import { HashLoader } from 'react-spinners';
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
 
   useEffect(() => {
@@ -23,20 +23,27 @@ function App() {
       easing: 'ease-in-out-back',
       once: true
     });
-    const spinner = document.getElementById("preloader");
-    if (spinner) {
-      setTimeout(() => {
-        spinner.style.display = "none";
-        setLoading(false);
-      }, 2000);
-    }
+
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+
   }, []);
 
-  
+
 
   return (
     <div>
-      <Preloader />
+      {loading &&
+        <div className='loader-mask'>
+          <div className='loader'>
+            <HashLoader color="#36d7b7" />
+
+          </div>
+        </div>
+      }
+
       {!loading &&
         <div className="App">
           <Sidebar id="sideNav" />
