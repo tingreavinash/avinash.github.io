@@ -31,7 +31,7 @@ function Experience(props) {
                                     </a>
                                     <h3 className="mb-0">{item.jobTitle}</h3>
                                     {item.awards.map((award, index) => {
-                                        return <span key={index} className="spot-award" title={award.title} data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
+                                        return <span key={index} className="spot-award" title={award.title} data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip"
                                             onClick={() => {
                                                 setModalShow(true);
                                                 setCertificateImage([award.img]);
@@ -53,7 +53,7 @@ function Experience(props) {
                                     <span className="resume-date-box text-primary">{item.startDate} - {item.endDate}</span>
                                 </div>
                             </div>
-                            {index !== experienceData.length - 1 &&
+                            {index !== experienceData.experiences.length - 1 &&
                                 <hr />
                             }
 
