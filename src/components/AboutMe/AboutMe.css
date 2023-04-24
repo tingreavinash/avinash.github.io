@@ -1,18 +1,14 @@
-.bd-callout-warning {
-    border-left-color: #a1d281e6 !important;
-}
-
 .bd-callout {
     padding: 1rem;
-    border: 1px solid #eee;
+    border: 1px solid var(--callout-border-color);
     border-left-width: .45rem;
     border-top-right-radius: .5rem;
     border-bottom-right-radius: .5rem;
-    background-color: #acd5913b;
-
+    background-color: var(--callout-bg-color);
+    border-left-color: var(--callout-border-color) !important;
 }
 
-.bd-callout>h3 {
+.bd-callout > h3 {
     text-transform: none;
 }
 

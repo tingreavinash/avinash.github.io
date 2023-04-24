@@ -1,0 +1,9 @@
+.modal-header {
+    background-color: var(--table-header-bg);
+}
+.modal-body {
+    background-color: var(--table-data-bg);
+}
+.modal-footer {
+    background-color: var(--table-header-bg);
+}

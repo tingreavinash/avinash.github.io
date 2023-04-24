@@ -3,14 +3,36 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i');
 
 
-:root {
+.light-theme {
     --primary-color: #E64A19;
-    --pale-yellow: #f1c40f;
-    --mark-background: #fff09b;
     --body-bg: #fff;
     --text-color: #5e6266;
-    --heading-color: #343a40;
-    --navbar-outline-color: #d48a6e;
+    --text-color-hover: #fff;
+    --text-color-secondary: #E64A19;
+    --callout-bg-color: #acd5913b;
+    --callout-border-color: #a1d281e6;
+    --selection-color: #f1c40f;
+    --mark-bg: #fff09b;
+    --mark-bg-hover: #f0d957;
+    --table-text-color: #000;
+}
+
+.dark-theme {
+    --primary-color: #3e183e;
+    --body-bg: #1b0a1b;
+    --text-color: #fff;
+    --text-color-hover: #1b0a1b;
+    --text-color-secondary: #fff;
+    --callout-bg-color: #006466;
+    --callout-border-color: #065a60;
+    --selection-color: #f1c40f;
+    --mark-bg: #6d2c6c;
+    --mark-bg-hover: #6d1e6c;
+    --table-text-color: #fff;
+
+    --table-header-bg: #3e183e;
+    --table-data-bg: #3e183e;
+    --shadow-color: #cb44f7;
 }
 
 body {
@@ -22,19 +44,23 @@ body {
 }
 
 ::selection {
-    background-color: var(--pale-yellow);
+    background-color: var(--selection-color);
     color: black;
 }
 
-
+img {
+    filter: drop-shadow(1px 1px 2px var(--shadow-color));
+}
 
 
 mark {
     transition: all 0.1s;
+    background-color: var(--mark-bg);
+    color: var(--text-color);
 }
 
 mark:hover {
-    background-color: var(--mark-background);
+    background-color: var(--mark-bg-hover);
 }
 
 .chip {
@@ -57,10 +83,17 @@ mark:hover {
     transition: all 0.2s;
 }
 
-.chip-border-primary:hover {
+.table .chip-border-primary {
+    color: var(--table-text-color);
+    opacity: 0.9;
+    border: 1px solid var(--table-text-color);
+    transition: all 0.2s;
+}
+
+/* .chip-border-primary:hover {
     background-color: black;
     color: white;
-}
+} */
 
 th {
     opacity: 0.7;
@@ -75,7 +108,7 @@ h6 {
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--heading-color);
+    color: var(--text-color);
 }
 
 h1 {
@@ -196,11 +229,11 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-    color: var(--primary-color) !important;
+    color: var(--text-color-secondary) !important;
 }
 
 a {
-    color: var(--primary-color);
+    color: var(--text-color-secondary);
 }
 
 a:hover,

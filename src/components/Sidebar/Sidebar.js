@@ -5,7 +5,21 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 
 function Sidebar(props) {
+    const [theme, setTheme] = useState("light-theme");
     const [lastUpdatedTime, setLastUpdatedTime] = useState("");
+
+    useEffect(() => {
+        document.body.className = theme + ' custom-scrollbar-css';
+    }, [theme]);
+
+
+    const toggleTheme = () => {
+        if (theme === 'dark-theme') {
+            setTheme('light-theme');
+        } else {
+            setTheme('dark-theme');
+        }
+    }
 
     useEffect(() => {
         // TODO: Use octokit here
@@ -140,10 +154,11 @@ function Sidebar(props) {
                         </Link>
                         <br />
                         <div style={{ color: "white" }}>
-                        <span id="last-update-time" className="badge rounded-pill bg-warning text-dark">
-                                    Updated {lastUpdatedTime}
-                                </span>
+                            <span id="last-update-time" className="badge rounded-pill bg-warning text-dark">
+                                Updated {lastUpdatedTime}
+                            </span>
                         </div>
+                        <button type="button" className='btn btn-dark btn-sm' onClick={() => toggleTheme()}>Toggle Theme</button>
                     </ul>
                 </div>
             </nav>

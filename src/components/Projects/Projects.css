@@ -15,3 +15,9 @@
    display: grid;
  }
  
+ .card-footer .chip-border-primary {
+    color: var(--table-text-color);
+    opacity: 0.9;
+    border: 1px solid var(--table-text-color);
+    transition: all 0.2s;
+}

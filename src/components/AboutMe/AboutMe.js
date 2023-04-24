@@ -23,7 +23,7 @@ function AboutMe(props) {
                         <div className="chip chip-border-primary">Problem Solving</div>
                     </div>
                     <br />
-                    <div className="bd-callout bd-callout-warning" data-aos="fade-right">
+                    <div className="bd-callout" data-aos="fade-right">
                         <p className="lead text-justify">
                             <h3>While we teach, we learn.</h3>
                             <em>-Seneca</em>

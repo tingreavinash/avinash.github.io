@@ -7,10 +7,6 @@
     cursor: pointer;
 }
 
-#sideNav .navbar-toggler:focus {
-    outline-color: var(--navbar-outline-color);
-}
-
 .navbar {
     overflow: auto;
 }
@@ -28,7 +24,7 @@
         border-radius: 0.5rem;
         text-align: center !important;
         backdrop-filter: blur(4px);
-        background-color: #e64a19d9 !important;
+        background-color: var(--primary-color) !important;
         text-transform: capitalize;
     }
 }

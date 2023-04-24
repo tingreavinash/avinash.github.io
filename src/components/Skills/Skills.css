@@ -23,3 +23,13 @@
    display: grid;
  }
  
+
+.table th{
+    background-color: var(--table-header-bg);
+    color: var(--table-text-color);
+}
+
+.table td{
+    background-color: var(--table-data-bg);
+    color: var(--table-text-color) !important;
+}

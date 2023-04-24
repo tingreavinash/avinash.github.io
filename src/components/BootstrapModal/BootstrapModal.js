@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { BiLinkExternal } from "react-icons/bi";
 import Carousel from 'react-bootstrap/Carousel';
+import "./BootstrapModal.css"
 
 function BootstrapModal(props) {
     return (

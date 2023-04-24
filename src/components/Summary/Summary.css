@@ -41,20 +41,19 @@
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     display: inline-block;
-    background-color: #f8f9fa;
-    color: var(--bs-gray-800);
+    color: var(--text-color);
     margin-right: 1rem;
     transition: all 0.3s;
     text-align: center;
-    border: 1px solid var(--bs-secondary);
+    border: 1px solid var(--text-color);
     transition: all 0.3s;
 }
 
 .contact-icons>a:hover,
 .social-icons>a:hover {
-    background-color: var(--bs-gray-800);
+    background-color: var(--text-color);
     box-shadow: 5px 5px 4px 2px rgb(108 135 135 / 20%);
-    color: var(--bs-white);
+    color: var(--text-color-hover);
 }
 
 
