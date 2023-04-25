@@ -1,6 +1,5 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-
 import "./DarkthemeToggle.css";
 
 function DarkthemeToggle() {
@@ -8,7 +7,6 @@ function DarkthemeToggle() {
     const getTheme = () => {
         const theme = localStorage.getItem("theme");
         if (!theme) {
-            // Default theme is taken as dark-theme
             localStorage.setItem("theme", "light-theme");
             return "light-theme";
         } else {
@@ -26,6 +24,13 @@ function DarkthemeToggle() {
         refreshTheme();
     }, [theme]);
 
+    useEffect(() => {
+        const mq = window.matchMedia('(prefers-color-scheme: dark)');
+        const useDarkMode = mq.matches;
+        if (useDarkMode === true) {
+            setTheme("dark-theme");
+        }
+    }, []);
     const toggleTheme = () => {
         if (theme === 'dark-theme') {
             setTheme('light-theme');

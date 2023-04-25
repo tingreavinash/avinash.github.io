@@ -39,7 +39,7 @@
 .dark-theme {
     --accent-color: #192734;
     --background-color: #15202B;
-    --primary-text-color: #fff;
+    --primary-text-color: #e7e7e7;
     --secondary-text-color: #8899A6;
     --highlight-text: var(--secondary-text-color);
 

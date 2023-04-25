@@ -10,7 +10,7 @@ function Resources(props) {
                     <h2 className="mb-5 " data-aos="fade-down">
                         <span className="section-heading">Resources</span>
                     </h2>
-                    <table className="table table-hover table-sm" data-aos="fade-right">
+                    <table className="table table-sm" data-aos="fade-right">
                         <tbody>
                             {resourceData.resources.map((resource, index) => {
                                 return <tr key={index}>
