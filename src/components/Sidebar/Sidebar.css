@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab&&display=swap');
 
-.nav-item, .nav-link {
+.nav-item,
+.nav-link {
     font-weight: 800;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
@@ -97,4 +98,8 @@
         display: block;
     }
 
+}
+.theme-toggle{
+    max-width: 1rem;
+    max-height: 1rem;
 }

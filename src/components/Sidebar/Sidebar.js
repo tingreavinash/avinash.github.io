@@ -2,35 +2,14 @@ import { useEffect, useState } from 'react'
 import "./Sidebar.css"
 import moment from 'moment';
 import { Link, animateScroll as scroll } from "react-scroll";
+import DarkthemeToggle from '../DarkthemeToggle/DarkthemeToggle';
 
 
 function Sidebar(props) {
-    const [theme, setTheme] = useState("light-theme");
+
     const [lastUpdatedTime, setLastUpdatedTime] = useState("");
 
     useEffect(() => {
-        document.body.className = theme + ' custom-scrollbar-css';
-    }, [theme]);
-
-
-    const toggleTheme = () => {
-        if (theme === 'dark-theme') {
-            setTheme('light-theme');
-        } else {
-            setTheme('dark-theme');
-        }
-    }
-
-    useEffect(() => {
-        // TODO: Use octokit here
-        // var options = {  
-        //     method: 'GET',
-        //     headers: {
-        //       'Accept': 'application/vnd.github+json',
-        //       'Authorization': 'Bearer <TOKEN>',
-        //       'X-GitHub-Api-Version': '2022-11-28'
-        //     }
-        //   }
 
         // fetch data
         const dataFetch = async () => {
@@ -158,7 +137,11 @@ function Sidebar(props) {
                                 Updated {lastUpdatedTime}
                             </span>
                         </div>
-                        <button type="button" className='btn btn-dark btn-sm' onClick={() => toggleTheme()}>Toggle Theme</button>
+                        <div className='theme-toggle'>
+
+                        <DarkthemeToggle />
+                        </div>
+
                     </ul>
                 </div>
             </nav>
