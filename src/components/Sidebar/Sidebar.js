@@ -9,6 +9,8 @@ function Sidebar(props) {
 
     const [lastUpdatedTime, setLastUpdatedTime] = useState("");
 
+    
+
     useEffect(() => {
 
         // fetch data
@@ -137,10 +139,8 @@ function Sidebar(props) {
                                 Updated {lastUpdatedTime}
                             </span>
                         </div>
-                        <div className='theme-toggle'>
-
                         <DarkthemeToggle />
-                        </div>
+
 
                     </ul>
                 </div>

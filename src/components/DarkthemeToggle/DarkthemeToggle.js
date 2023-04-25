@@ -36,7 +36,8 @@ function DarkthemeToggle() {
 
 
     return (
-        <div className="container--toggle">
+        <div class="form-check form-check-inline align-items-center">
+            {/* <div className="container--toggle">
             {
                 theme === "dark-theme" ?
                     <input type="checkbox" id="toggle" className="toggle--checkbox" onClick={() => toggleTheme()} checked />
@@ -46,7 +47,16 @@ function DarkthemeToggle() {
             <label htmlFor="toggle" className="toggle--label">
                 <span className="toggle--label-background"></span>
             </label>
+        </div> */}
+            {
+                theme === "dark-theme" ?
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" onClick={() => toggleTheme()} checked />
+                    :
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" onClick={() => toggleTheme()} />
+            }
+            <label class="form-check-label" for="inlineCheckbox1">Enable dark mode</label>
         </div>
+
     )
 }
 
