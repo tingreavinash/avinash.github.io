@@ -27,5 +27,5 @@
 }
 
 .custom-tooltip{
-  --bs-tooltip-bg: var(--primary-color);
+  --bs-tooltip-bg: var(--secondary-text-color);
 }

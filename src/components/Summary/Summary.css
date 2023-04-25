@@ -41,19 +41,19 @@
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     display: inline-block;
-    color: var(--text-color);
+    color: var(--primary-text-color);
     margin-right: 1rem;
     transition: all 0.3s;
     text-align: center;
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--primary-text-color);
     transition: all 0.3s;
 }
 
 .contact-icons>a:hover,
 .social-icons>a:hover {
-    background-color: var(--text-color);
+    background-color: var(--primary-text-color);
     box-shadow: 5px 5px 4px 2px rgb(108 135 135 / 20%);
-    color: var(--text-color-hover);
+    color: var(--background-color);
 }
 
 

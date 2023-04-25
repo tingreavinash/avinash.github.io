@@ -39,9 +39,9 @@
 .custom-card-style {
     cursor: pointer;
     margin-top: 1rem;
-    background: var(--table-header-bg);
-    border: 1px solid var(--text-color);
-    color: var(--text-color);
+    background: var(--card-bg-color);
+    border: 1px solid var(--card-border-color);
+    color: var(--primary-text-color);
     border-radius: 16px 16px 16px 16px;
     box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
     box-sizing: border-box;
@@ -50,8 +50,9 @@
 }
 
 .custom-card-style .card-header {
-    color: var(--text-color);
-    background-color: var(--table-data-bg) !important;
+    color: var(--primary-text-color);
+    border-bottom: 1px solid var(--card-border-color);
+    background-color: var(--card-bg-color) !important;
 }
 
 .card-header:first-child {

@@ -22,7 +22,7 @@ function Skills(props) {
 
                     </div>
                     {/* <div className="subheading mb-3" data-aos="fade-down">Skills & Expertise</div> */}
-                    <table className="table table-hover" data-aos="fade-right">
+                    <table className="table" data-aos="fade-right">
                         <tbody>
                             {skillsData.techStack.map((stack, index) => {
                                 return <tr key={index}>

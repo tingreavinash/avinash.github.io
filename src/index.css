@@ -4,42 +4,52 @@
 
 
 .light-theme {
-    --primary-color: #E64A19;
-    --body-bg: #fff;
-    --text-color: #5e6266;
-    --text-color-hover: #fff;
-    --text-color-secondary: #E64A19;
+    --accent-color: #E64A19;
+    --background-color: #fff;
+    --primary-text-color: #3b3d3f;
+    --secondary-text-color: var(--accent-color);
+    --card-bg-color: #fff;
+    --card-border-color: #d1d1d1;
+    --modal-border-color: #fff;
+    --highlight-text: var(--accent-color);
+
     --callout-bg-color: #acd5913b;
     --callout-border-color: #a1d281e6;
+    
     --selection-color: #f1c40f;
-    --mark-bg: #fff09b;
-    --mark-bg-hover: #f0d957;
-    --table-text-color: #000;
+    --mark-bg: #ffd600;
+    --mark-bg-hover: #fff176;
+    --shadow-color: #a9aaac ;
 }
 
 .dark-theme {
-    --primary-color: #3e183e;
-    --body-bg: #1b0a1b;
-    --text-color: #fff;
-    --text-color-hover: #1b0a1b;
-    --text-color-secondary: #fff;
-    --callout-bg-color: #006466;
-    --callout-border-color: #065a60;
-    --selection-color: #f1c40f;
-    --mark-bg: #6d2c6c;
-    --mark-bg-hover: #6d1e6c;
-    --table-text-color: #fff;
+    --accent-color: #192734;
+    --background-color: #15202B;
+    --primary-text-color: #fff;
+    --secondary-text-color: #8899A6;
+    --highlight-text: var(--secondary-text-color);
 
-    --table-header-bg: #3e183e;
-    --table-data-bg: #3e183e;
-    --shadow-color: #cb44f7;
+    --card-bg-color: #22303C;
+    --card-border-color: #d1d1d1;
+    --modal-border-color: var(--card-border-color);
+
+    --callout-bg-color: var(--card-bg-color);
+    --callout-border-color: var(--secondary-text-color);
+    --selection-color: #f1c40f;
+
+    --mark-bg: #8899A6;
+    --mark-bg-hover: #adbdc9;
+
+    --table-header-bg: #22303C;
+    --table-data-bg: #192734;
+    --shadow-color: #d8c3df;
 }
 
 body {
     font-family: 'Roboto Slab', serif;
     padding-top: 54px;
-    color: var(--text-color);
-    background: var(--body-bg);
+    color: var(--primary-text-color);
+    background: var(--background-color);
     text-align: left;
 }
 
@@ -49,14 +59,14 @@ body {
 }
 
 img {
-    filter: drop-shadow(1px 1px 2px var(--shadow-color));
+    filter: drop-shadow(0px 1px 1px var(--shadow-color));
 }
 
 
 mark {
     transition: all 0.1s;
     background-color: var(--mark-bg);
-    color: var(--text-color);
+    color: var(--primary-text-color);
 }
 
 mark:hover {
@@ -77,18 +87,12 @@ mark:hover {
 
 
 .chip-border-primary {
-    color: black;
+    color: var(--primary-text-color);
     opacity: 0.9;
-    border: 1px solid black;
+    border: 1px solid var(--primary-text-color);
     transition: all 0.2s;
 }
 
-.table .chip-border-primary {
-    color: var(--table-text-color);
-    opacity: 0.9;
-    border: 1px solid var(--table-text-color);
-    transition: all 0.2s;
-}
 
 /* .chip-border-primary:hover {
     background-color: black;
@@ -108,7 +112,7 @@ h6 {
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--text-color);
+    color: var(--primary-text-color);
 }
 
 h1 {
@@ -229,11 +233,11 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-    color: var(--text-color-secondary) !important;
+    color: var(--highlight-text) !important;
 }
 
 a {
-    color: var(--text-color-secondary);
+    color: var(--primary-text-color);
 }
 
 a:hover,

@@ -16,8 +16,8 @@
  }
  
  .card-footer .chip-border-primary {
-    color: var(--table-text-color);
+    color: var(--primary-text-color);
     opacity: 0.9;
-    border: 1px solid var(--table-text-color);
+    border: 1px solid var(--primary-text-color);
     transition: all 0.2s;
 }

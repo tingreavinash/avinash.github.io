@@ -26,10 +26,10 @@
 
 .table th{
     background-color: var(--table-header-bg);
-    color: var(--table-text-color);
+    color: var(--primary-text-color);
 }
 
 .table td{
     background-color: var(--table-data-bg);
-    color: var(--table-text-color) !important;
+    color: var(--primary-text-color) !important;
 }
