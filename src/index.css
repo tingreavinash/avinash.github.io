@@ -17,8 +17,8 @@
     --callout-border-color: #a1d281e6;
 
     --selection-color: #f1c40f;
-    --mark-bg: #ffd600;
-    --mark-bg-hover: #fff176;
+    --mark-bg: #ffe24b85;
+    --mark-bg-hover: #ffe24bd1;
     --shadow-color: #a9aaac;
 
     /** sunny side **/
@@ -51,8 +51,8 @@
     --callout-border-color: var(--secondary-text-color);
     --selection-color: #f1c40f;
 
-    --mark-bg: #8899A6;
-    --mark-bg-hover: #adbdc9;
+    --mark-bg: #8899A6BD;
+    --mark-bg-hover: #adbdc9db;
 
     --table-header-bg: #22303C;
     --table-data-bg: #192734;
