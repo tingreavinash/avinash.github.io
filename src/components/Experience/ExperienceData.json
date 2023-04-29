@@ -1,7 +1,7 @@
 {
     "experiences": [
         {
-            "companyName": "Opus",
+            "companyName": "Opus Consulting Solutions",
             "companyLogo": "/assets/images/opus_logo.svg",
             "companyUrl": "https://www.opusconsulting.com",
             "jobTitle": "Senior Tech Engineer",
@@ -19,7 +19,7 @@
                 "Earned two <mark>individual awards</mark> for exceptional contributions to software development projects.",
                 "Individual contributor in <mark>MasterCard Click-To-Pay</mark> feature.",
                 "Developed an <mark>Audit Logging</mark> framework to intercept and log API requests in microservices for comprehensive system activity tracking.",
-                "Streamlined Software Security Framework (SSF) features, including <mark>Data Encryption</mark> and Data Masking, to enhance application security.",
+                "Streamlined PCI-SSF (Software Security Framework) features, including <mark>Data Encryption</mark> and Data Masking, to enhance security compliance.",
                 "Implemented an <mark>Event Logging</mark> framework and standardized code versioning and merging processes for improved system monitoring and change tracking.",
                 "Developed secure application modules using code analysis tools like <mark>SonarQube and SonarLint.</mark>",
                 "Implemented <mark>JWT authorization</mark> globally in one service for payment processing and worked on microservices orchestration using Camunda.",

@@ -21,7 +21,7 @@ function Experience(props) {
                     />
                     {experienceData.experiences.map((item, index) => {
                         if (item.isHiddden === true) {
-                            return <div key={index}></div>
+                            return <div key={index} hidden></div>
                         }
                         return <div key={index}>
                             <div className="resume-item d-flex flex-column flex-md-row mb-5" data-aos="fade-right">

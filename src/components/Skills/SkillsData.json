@@ -74,6 +74,7 @@
                 "Oracle SQL",
                 "PostgresQL",
                 "Apache Kafka",
+                "ActiveMQ",
                 "Splunk"
             ]
         },
@@ -126,7 +127,8 @@
             "skills": [
                 "Camunda Platform",
                 "Linux",
-                "IntelliJ IDEA"
+                "IntelliJ IDEA",
+                "Redis"
             ]
         }
     ]

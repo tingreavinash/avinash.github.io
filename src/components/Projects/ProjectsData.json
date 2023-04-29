@@ -1,6 +1,22 @@
 {
     "projects": [
         {
+            "name": "Payload Decryption Service",
+            "description": [
+                "Designed and implemented a <mark>web service</mark> in Java, enabling developers to easily decrypt data returned by an API.",
+                "Tested and validated the service using <mark>JUnit and Mockito</mark> to ensure accuracy and reliability.",
+                "<mark>Improved developer productivity</mark> by providing a streamlined solution for decrypting data, reducing development time and effort.",
+                "Deployed the service on <mark>PCF platform</mark> to provide easy access for developers, resulting in streamlined workflows and reduced development time."
+            ],
+            "date": "2023-04-01",
+            "skills": [
+                "Spring Boot",
+                "PCF"
+            ],
+            "whileIn": "Opus Consulting Solutions",
+            "url": null
+        },
+        {
             "name": "Custom Google Search",
             "description": [
                 "Designed and developed a full-stack web application with <mark>advanced filtering</mark> for Google search results.",
@@ -15,20 +31,22 @@
                 "HTML",
                 "TypeScript"
             ],
+            "whileIn": null,
             "url": "https://github.com/tingreavinash/custom-google-search"
         },
         {
             "name": "Hotfix Search Application",
             "description": [
                 "Conceptualized and developed a web application to <mark>explore historical hotfixes</mark>, previously maintained in Excel format, resulting in a 90% reduction in manual task time.",
-                "Built the application using Spring Boot, MongoDB, and JSP."
+                "Built the application using Spring Boot, MongoDB, and ReactJS."
             ],
             "date": "2020-05-01",
             "skills": [
                 "Spring Boot",
                 "MongoDB",
-                "JSP"
+                "ReactJS"
             ],
+            "whileIn": "Amdocs",
             "url": null
         },
         {
@@ -43,23 +61,25 @@
             "skills": [
                 "Spring Boot"
             ],
+            "whileIn": "Amdocs",
             "url": null
         },
         {
             "name": "Leave Management System",
             "description": [
                 "Developed an employee leave management application that streamlined the logging process, resulting in a 70% increase in efficiency to <mark>track historic leaves.</mark>",
-                "Implemented JSP for the frontend and Spring Boot, Spring Data JPA for the backend service, and MySQL as the database.",
+                "Implemented ReactJS for the frontend and Spring Boot, Spring Data JPA for the backend service, and MySQL as the database.",
                 "Designed and developed the <mark>application architecture and data models</mark>, ensuring efficient and scalable functionality.",
                 "Provided support to end-users, addressing and resolving technical issues in a timely and effective manner."
             ],
             "date": "2019-10-01",
             "skills": [
-                "JSP",
+                "ReactJS",
                 "Spring Data",
                 "REST",
                 "MySQL"
             ],
+            "whileIn": "Amdocs",
             "url": null
         },
         {
@@ -74,6 +94,8 @@
                 "AWS",
                 "JAX-RS"
             ],
+            "whileIn": "Amdocs",
+            "isHiddden": true,
             "url": null
         },
         {
@@ -88,6 +110,7 @@
                 "Bootstrap",
                 "JavaScript"
             ],
+            "whileIn": "Amdocs",
             "url": null
         },
         {
@@ -100,6 +123,7 @@
             "skills": [
                 "Shell Script"
             ],
+            "whileIn": "Amdocs",
             "url": null
         }
     ]

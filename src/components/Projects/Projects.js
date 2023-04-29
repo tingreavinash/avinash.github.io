@@ -20,6 +20,9 @@ function Projects(props) {
                             return new Date(b.date) - new Date(a.date)
                         })
                             .map((item, index) => {
+                                if (item.isHiddden === true) {
+                                    return <div key={index} hidden></div>
+                                }
                                 return <div key={index} className="col-sm-6"  data-aos="fade-right">
                                     <div className="custom-card-style card mobile-fit-cert">
                                         <div className="card-header bg-light">
