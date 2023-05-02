@@ -29,6 +29,12 @@ function App() {
     };
   })
 
+  let alertShow = false;
+  setInterval(() => {
+    document.title = alertShow ? "Avinash Tingre": "Digital Resume!";
+    alertShow = !alertShow;
+  }, 2000);
+
   useEffect(() => {
     AOS.init({
       duration: 1200,
