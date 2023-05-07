@@ -53,20 +53,20 @@ function Summary(props) {
                 <div className="w-100">
                     <div className="mobile-center-parent">
                         <div className="mobile-image" data-aos="fade-up">
-                        <img alt="Avinash Tingre" className="img-fluid img-profile rounded-circle mx-auto mb-2" src={process.env.PUBLIC_URL + '/assets/images/profile.jpeg'} />
-                            
+                            <img alt="Avinash Tingre" className="img-fluid img-profile rounded-circle mx-auto mb-2" src={process.env.PUBLIC_URL + '/assets/images/profile.jpeg'} />
+
                         </div>
-                        
+
                         <h1 className="mb-0" data-aos="fade-down">Avinash
                             <span className="text-primary"> Tingre</span>
                         </h1>
                         <br /><br />
                         <ul className="lead mb-5" style={{ textAlign: "left" }} data-aos="fade-right">
 
-                            <li>Software engineer with <mark>{calculateTotalExperience()}</mark> of experience in developing and implementing <mark>robust and scalable</mark> web applications.
-                            </li>
-                            <li>Adept in database technologies such as <mark>Oracle and Postgres.</mark></li>
-                            <li>Proven track record of delivering <mark>high-quality software solutions.</mark></li>
+                            <li>Experienced software engineer with <mark>{calculateTotalExperience()}</mark> of experience implementing large back-end systems.</li>
+                            <li>Focused on innovation, efficiency, and automation with a proven track record of delivering high-quality software solutions.</li>
+                            <li>Skilled in Java, Spring Boot, and Hibernate, with expertise in <mark>cloud and DevOps technologies</mark> such as AWS, Git, Docker, and Kubernetes.</li>
+                            <li>Recognized for outstanding performance and team work, with a strong commitment to <mark>continuous learning</mark> and professional development.</li>
                         </ul>
                         <div className="social-icons" data-aos="fade-right">
                             <a data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" href="https://www.linkedin.com/in/tingreavinash/" target="_blank" rel="noreferrer" title="LinkedIn">

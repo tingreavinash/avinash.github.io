@@ -8,7 +8,7 @@
     border-left-color: var(--callout-border-color) !important;
 }
 
-.bd-callout > h3 {
+.bd-callout > .lead > h3 {
     text-transform: none;
 }
 

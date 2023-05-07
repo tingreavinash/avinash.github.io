@@ -25,8 +25,8 @@ function AboutMe(props) {
                     <br />
                     <div className="bd-callout" data-aos="fade-right">
                         <p className="lead text-justify">
-                            <h3>While we teach, we learn.</h3>
-                            <em>-Seneca</em>
+                            <h3>Success is not final, failure is not fatal: it is the courage to continue that counts.</h3>
+                            <em>- Winston Churchill</em>
                         </p>
                     </div>
                 </div>

@@ -16,14 +16,13 @@
                 }
             ],
             "description": [
-                "Earned two <mark>individual awards</mark> for exceptional contributions to software development projects.",
-                "Individual contributor in <mark>MasterCard Click-To-Pay</mark> feature.",
-                "Developed an <mark>Audit Logging</mark> framework to intercept and log API requests in microservices for comprehensive system activity tracking.",
-                "Streamlined PCI-SSF (Software Security Framework) features, including <mark>Data Encryption</mark> and Data Masking, to enhance security compliance.",
-                "Implemented an <mark>Event Logging</mark> framework and standardized code versioning and merging processes for improved system monitoring and change tracking.",
-                "Developed secure application modules using code analysis tools like <mark>SonarQube and SonarLint.</mark>",
-                "Implemented <mark>JWT authorization</mark> globally in one service for payment processing and worked on microservices orchestration using Camunda.",
-                "Created BPMN models using <mark>Camunda Zeebe</mark> modeler for clear communication across teams."
+                "Received <mark>Spot Award</mark> twice for outstanding quality of work, including developing and maintaining secure application modules using SonarQube/Sonar-Lint for improved code quality and security compliance.",
+                "Created an <mark>Audit Logging</mark> framework using Java and Spring Boot to intercept every API request in microservices, improving tracking and enhancing security.",
+                "As an individual contributor, developed and maintained the <mark>Click-To-Pay</mark> feature for Mastercard using Java, Spring Boot, and Redis. This involved integrating multiple microservices and implementing a caching mechanism for improved performance.",
+                "Streamlined the <mark>PCI-SSF</mark> features in the application, including Data Encryption and Data Masking, according to user permissions using Java, Spring Boot, and Hibernate. This resulted in improved security compliance.",
+                "Implemented an <mark>Event Logging</mark> framework using Java and Spring Boot to raise events for important user actions in all microservices. This improved application monitoring and resulted in a 50% reduction in time taken to identify and resolve issues.",
+                "Created BPMN models using <mark>Camunda Zeebe Modeler</mark> to improve process efficiency and reduce development time.",
+                "Implemented <mark>JWT authorization</mark> globally in one service for payment processing and worked on microservices orchestration using Camunda."
             ],
             "startDate": "Feb 2022",
             "endDate": "present"
