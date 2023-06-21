@@ -83,7 +83,7 @@ body {
     color: var(--primary-text-color);
     background: var(--background-color);
     text-align: left;
-    --theme-transition-period: 0.5s;
+    --theme-transition-period: 0.8s;
 }
 
 ::selection {
