@@ -5,6 +5,7 @@
 
 .light-theme {
     --accent-color: #E64A19;
+    --accent-color-tr: #E64A19CC;
     --background-color: #fff;
     --primary-text-color: #3b3d3f;
     --secondary-text-color: var(--accent-color);
@@ -33,11 +34,13 @@
     --indigo-color: #6b7abb;
     --gray-border: #e8e8ea;
     --gray-dots: #e8e8ea;
+    transition: all var(--theme-transition-period);
 
 }
 
 .dark-theme {
     --accent-color: #192734;
+    --accent-color-tr: #192734CC;
     --background-color: #15202B;
     --primary-text-color: #e7e7e7;
     --secondary-text-color: #8899A6;
@@ -70,6 +73,7 @@
     --indigo-color: #6b7abb;
     --gray-border: #e8e8ea;
     --gray-dots: #e8e8ea;
+    transition: all var(--theme-transition-period);
 
 }
 
@@ -79,6 +83,7 @@ body {
     color: var(--primary-text-color);
     background: var(--background-color);
     text-align: left;
+    --theme-transition-period: 0.5s;
 }
 
 ::selection {

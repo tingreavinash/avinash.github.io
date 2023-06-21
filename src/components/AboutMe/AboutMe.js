@@ -25,7 +25,7 @@ function AboutMe(props) {
                     <br />
                     <div className="bd-callout" data-aos="fade-right">
                         <p className="lead text-justify">
-                            <h3>Success is not final, failure is not fatal: it is the courage to continue that counts.</h3>
+                            <h3>Success is not final, Failure is not fatal: It is the courage to continue that counts.</h3>
                             <em>- Winston Churchill</em>
                         </p>
                     </div>

@@ -1,11 +1,6 @@
 {
     "resources": [
         {
-            "name": "Resume",
-            "resourceType": "file",
-            "url": "/assets/resume/v2/Avinash_Tingre_Resume.pdf"
-        },
-        {
             "name": "Knowledge Base (Where I usually dump random stuff!)",
             "resourceType": "link",
             "url": "https://tingreavinash.gitbook.io"

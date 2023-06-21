@@ -10,6 +10,8 @@
 
 .navbar {
     overflow: auto;
+    transition: all var(--theme-transition-period);
+
 }
 
 .custom-navbar {
@@ -25,7 +27,7 @@
         border-radius: 0.5rem;
         text-align: center !important;
         backdrop-filter: blur(4px);
-        background-color: var(--accent-color) !important;
+        background-color: var(--accent-color-tr) !important;
         text-transform: capitalize;
     }
 }

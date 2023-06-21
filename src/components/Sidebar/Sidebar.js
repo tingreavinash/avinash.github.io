@@ -2,14 +2,63 @@ import { useEffect, useState } from 'react'
 import "./Sidebar.css"
 import moment from 'moment';
 import { Link, animateScroll as scroll } from "react-scroll";
-import DarkthemeToggle from '../DarkthemeToggle/DarkthemeToggle';
-
+import { BiLinkExternal } from "react-icons/bi";
+import DarkModeToggle from "react-dark-mode-toggle";
 
 function Sidebar(props) {
 
     const [lastUpdatedTime, setLastUpdatedTime] = useState("");
+    const resumeData = {
+        "name": "Resume",
+        "resourceType": "file",
+        "url": "/assets/resume/v2/Avinash_Tingre_Resume.pdf"
+    };
 
-    
+    const getTheme = () => {
+        const theme = localStorage.getItem("theme");
+        if (!theme) {
+            localStorage.setItem("theme", "light-theme");
+            return "light-theme";
+        } else {
+            return theme;
+        }
+    };
+
+    const toggleTheme = () => {
+        if (theme === 'dark-theme') {
+            setTheme('light-theme');
+            toggleChecked();
+        } else {
+            setTheme('dark-theme');
+            toggleChecked();
+        }
+    }
+    const toggleChecked = () => {
+        if (checked === true) {
+            setIsChecked(false);
+        } else {
+            setIsChecked(true);
+        }
+    }
+    const [theme, setTheme] = useState(getTheme());
+    const [checked, setIsChecked] = useState(() => {
+        if (getTheme() === 'dark-theme') {
+            return true;
+        } else {
+            return false;
+        }
+    });
+
+
+    useEffect(() => {
+        document.body.className = theme + ' custom-scrollbar-css';
+        const refreshTheme = () => {
+            localStorage.setItem("theme", theme);
+        };
+
+        refreshTheme();
+    }, [theme]);
+
 
     useEffect(() => {
 
@@ -133,14 +182,23 @@ function Sidebar(props) {
                             duration={500}>
                             Resources
                         </Link>
-                        <br />
+                        <a className='nav-link' href={resumeData.resourceType === "file" ? process.env.PUBLIC_URL + resumeData.url : resumeData.url} target="_blank" rel="noreferrer">
+                            Resume <BiLinkExternal />
+                        </a>
+
                         <div style={{ color: "white" }}>
                             <span id="last-update-time" className="badge rounded-pill bg-warning text-dark">
                                 Updated {lastUpdatedTime}
                             </span>
                         </div>
-                        <DarkthemeToggle />
-
+                        <div>
+                            <DarkModeToggle
+                                onChange={(toggleTheme)}
+                                checked={checked}
+                                size={70}
+                                speed={1.3}
+                            />
+                        </div>
 
                     </ul>
                 </div>

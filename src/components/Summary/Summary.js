@@ -86,9 +86,9 @@ function Summary(props) {
                             <a data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" href="mailto:tingre.avinash@gmail.com" target="_blank" rel="noreferrer" title="Email">
                                 <IoMail /> Drop a Mail
                             </a>
-                            <a data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" href="https://t.me/avinash4848" target="_blank" rel="noreferrer" title="Telegram">
+                            {/* <a data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-toggle="tooltip" href="https://t.me/avinash4848" target="_blank" rel="noreferrer" title="Telegram">
                                 <FaTelegramPlane /> Say Hello
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
