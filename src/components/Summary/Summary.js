@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { BsMedium, BsGithub, BsStackOverflow } from "react-icons/bs";
 import { IoMail } from "react-icons/io5";
 import "./Summary.css";
@@ -7,7 +7,6 @@ import moment from 'moment';
 import Person from '../Person/Person';
 
 function Summary(props) {
-
 
     function calculateTotalExperience() {
         var today = moment();
