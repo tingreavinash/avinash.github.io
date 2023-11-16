@@ -11,7 +11,7 @@ function Sidebar(props) {
     const resumeData = {
         "name": "Resume",
         "resourceType": "file",
-        "url": "/assets/resume/v2/Avinash_Tingre_Resume.pdf"
+        "url": "/assets/resume/Avinash_Tingre_Resume.pdf"
     };
 
     const getTheme = () => {

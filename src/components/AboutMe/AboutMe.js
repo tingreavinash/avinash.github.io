@@ -10,9 +10,16 @@ function AboutMe(props) {
                         <span className="section-heading">About Me</span>
                     </h2>
                     <p className="lead text-justify" data-aos="fade-right">
-                        Senior Tech Engineer @ Opus<br />
-                        I am a seasoned software engineer with a passion for tackling complex problems and creating scalable solutions. I am a dedicated learner and collaborator who enjoys helping others and continuously improving my skills.<br /><br />
-                        With a focus on maintaining high standards in writing production code, I am driven to constantly innovate and improve.<br />
+                        I'm a seasoned Software Engineer, and beyond the lines of code, here's a bit about the person behind the screen.
+                    </p>
+                    <p className="lead text-justify" data-aos="fade-right">
+                        Innovation is the heartbeat of my professional journey. I see coding not just as a job but as an art of turning ideas into reality. Constantly exploring new technologies and methodologies, I thrive on challenges, viewing them as opportunities to innovate and enhance.
+                    </p>
+                    <p className="lead text-justify" data-aos="fade-right">
+                        An avid participant in tech meetups and conferences, I believe in the power of community and learning from the experiences of fellow tech enthusiasts. Let's connect and share insights, because in this rapidly evolving tech landscape, collaboration is key.
+                    </p>
+                    <p className="lead text-justify" data-aos="fade-right">
+                        In a world of algorithms and frameworks, I bring not just technical prowess but a holistic approach to problem-solving.
                     </p>
                     <div className="summary-skills" data-aos="fade-right">
                         <div className="chip chip-border-primary">Data Structures</div>
@@ -25,8 +32,8 @@ function AboutMe(props) {
                     <br />
                     <div className="bd-callout" data-aos="fade-right">
                         <p className="lead text-justify">
-                            <h3>Success is not final, Failure is not fatal: It is the courage to continue that counts.</h3>
-                            <em>- Winston Churchill</em>
+                            <h3>Learn to fail, because fulfilling your potential must involve some failure!</h3>
+                            <em>- From <a href="https://medium.com/@Pathfinder.fyi/what-does-a-director-of-engineering-do-73054ce8eb4b" rel='noreferrer' target='_blank'>an article</a> by Priyanka Shahheydari (What does a Director of Engineering do?)</em>
                         </p>
                     </div>
                 </div>

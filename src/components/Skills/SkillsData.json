@@ -118,6 +118,7 @@
                 "JUnit",
                 "Mockito",
                 "WireMock",
+                "PACT Testing",
                 "Maven",
                 "Gradle"
             ]
