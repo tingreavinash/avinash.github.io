@@ -17,6 +17,19 @@
       "url": null
     },
     {
+      "name": "Recipe Declutter",
+      "description": [
+        "Developed a ReactJS web app for <mark>recipe management</mark> with URL-based recipe decluttering.",
+        "Implemented user authentication, <mark>Firebase Firestore</mark> for recipe storage, and deployed on Firebase.",
+        "Enabled users to easily <mark>save and access recipes</mark>, improving overall organization.",
+        "Utilized ReactJS and JavaScript for front-end development, Firebase for backend services."
+      ],
+      "date": "2023-03-01",
+      "skills": ["ReactJS", "JavaScript", "Firebase"],
+      "whileIn": "Opus Technologies (Mastecard Project)",
+      "url": "https://reciperevamp.web.app"
+    },
+    {
       "name": "Custom Google Search",
       "description": [
         "Designed and developed a full-stack web application with <mark>advanced filtering</mark> for Google search results.",

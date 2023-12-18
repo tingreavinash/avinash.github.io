@@ -31,7 +31,7 @@ function Projects(props) {
                                                     <h4 className="card-title mb-0">{item.name}
                                                         {(item.url !== undefined && item.url !== null) &&
                                                             <a href={item.url} className="badge badge-light " target="_blank" rel="noreferrer">
-                                                                <span> <GoLinkExternal /> </span>
+                                                                <span style={{color: 'black'}}> <GoLinkExternal /> </span>
                                                             </a>
                                                         }
                                                     </h4>
