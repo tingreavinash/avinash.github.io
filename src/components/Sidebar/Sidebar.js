@@ -182,9 +182,9 @@ function Sidebar(props) {
                             duration={500}>
                             Resources
                         </Link>
-                        <a className='nav-link' href={resumeData.resourceType === "file" ? process.env.PUBLIC_URL + resumeData.url : resumeData.url} target="_blank" rel="noreferrer">
+                        {/* <a className='nav-link' href={resumeData.resourceType === "file" ? process.env.PUBLIC_URL + resumeData.url : resumeData.url} target="_blank" rel="noreferrer">
                             Resume <BiLinkExternal />
-                        </a>
+                        </a> */}
 
                         <div style={{ color: "white" }}>
                             <span id="last-update-time" className="badge rounded-pill bg-warning text-dark">

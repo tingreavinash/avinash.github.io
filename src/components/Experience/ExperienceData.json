@@ -1,6 +1,21 @@
 {
     "experiences": [
         {
+            "companyName": "Mastercard",
+            "companyLogo": "/assets/images/logo-mastercard.svg",
+            "companyUrl": "https://mastercard.co.in/",
+            "jobTitle": "Senior Software Engineer",
+            "awards": [
+                
+            ],
+            "description": [
+                "Contribute to Authentication service under Mastercard Checkout Solution (MACS).",
+                "Implement and enhance various types of authentication mechanisms such as 3DS and other proprietary protocols."
+            ],
+            "startDate": "Feb 2024",
+            "endDate": "present"
+        },
+        {
             "companyName": "Opus Technologies",
             "companyLogo": "/assets/images/opus_logo.svg",
             "companyUrl": "https://opustechglobal.com/",
@@ -31,7 +46,7 @@
                 "Implemented <mark>JWT authorization</mark> globally in one service for payment processing and worked on microservices orchestration using Camunda."
             ],
             "startDate": "Feb 2022",
-            "endDate": "present"
+            "endDate": "Feb 2024"
         },
         {
             "companyName": "Cerence",
