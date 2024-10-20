@@ -1,6 +1,21 @@
 {
   "projects": [
     {
+      "name": "Auto PR Reviewer (CodeSentinel)",
+      "description": [
+        "Our team was overwhelmed with too many PRs to review, which led to missing some issues despite our efforts.",
+        "I created an automated system that handles repetitive <mark>PR review</mark> tasks, so we could focus on more complex problems.",
+        "The system uses IntelliJ's <mark>code analyzer</mark> to automatically check code changes and add review comments in Bitbucket.",
+        "This automation cuts down the time spent on manual reviews for common code issues.",
+        "It ensures that every PR gets a thorough and consistent review, no matter how busy we are.",
+        "By catching issues early in the review process, the system helps improve overall code quality and prevents bugs."
+      ],
+      "date": "2024-04-01",
+      "skills": ["ReactJS", "Java", "Spring Boot", "PCF"],
+      "whileIn": "Mastercard",
+      "url": null
+    },
+    {
       "name": "Checkout Toolkit WebUI",
       "description": [
         "Designed a ReactJS <mark>web application</mark> to simplify recurring tasks for team members.",
@@ -11,9 +26,9 @@
         "Created a <mark>robust backend application</mark> with a variety of APIs to support the web application.",
         "Utilized <mark>caching</mark> mechanisms to optimize response times and minimize delays."
       ],
-      "date": "2023-04-01",
+      "date": "2023-12-01",
       "skills": ["ReactJS", "Java", "Spring Boot", "PCF"],
-      "whileIn": "Opus Technologies (Mastecard Project)",
+      "whileIn": "Mastercard",
       "url": null
     },
     {

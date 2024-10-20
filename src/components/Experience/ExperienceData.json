@@ -6,11 +6,29 @@
             "companyUrl": "https://mastercard.co.in/",
             "jobTitle": "Senior Software Engineer",
             "awards": [
-                
+                {
+                    "title": "Create Value (May 2024)",
+                    "img": "/assets/images/certificates/CreateValue-1.jpg"
+                },
+                {
+                    "title": "Create Value (Sep 2024)",
+                    "img": "/assets/images/certificates/CreateValue-2.jpg"
+                },
+                {
+                    "title": "Grow Together (Oct 2024)",
+                    "img": "/assets/images/certificates/GrowTogether-1.jpg"
+                }
             ],
             "description": [
-                "Contribute to Authentication service under Mastercard Checkout Solution (MACS).",
-                "Implement and enhance various types of authentication mechanisms such as 3DS and other proprietary protocols."
+                "Received <mark>3 spot awards</mark> in recognition of impactful contributions, including tool development, process improvements, and successful project delivery.",
+                "Spearheaded the development of an <mark>Auto PR Reviewer</mark> (CodeSentinel) product, accelerating the code review process by providing real-time review comments through static analysis.",
+                "Implement and enhance various types of authentication mechanisms such as 3DS and other proprietary protocols.",
+                "Contributed to critical fixes and enhancements in Checkout service and Authentication service in <mark><a href=\"https://developer.mastercard.com/product/click-to-pay\" rel=\"noreferrer\" target=\"_blank\" style={{textDecoration: 'none', color: 'inherit'}}>MasterCard Checkout Solutions (MACS)</a></mark>, leveraging Java, Spring Boot, and Redis, integrating multiple micro-services and implementing a caching mechanism for optimal performance.",
+                "Enhanced project efficiency with a custom <mark>WireMock Extention</mark> for monitoring and removing redundant stubbings from functional tests. Successfully deleted 5000 unused WireMocks, significantly optimizing project health.",
+                "Developed the <mark>Payload Decryption Service</mark> (Checkout Toolkit WebUI), enhancing developer efficiency and earning cross-team recognition.",
+                "Automated the update process for PCF environment variables using <mark>custom scripts</mark>, reducing manual efforts and increasing operational efficiency.",
+                "Implemented <mark>PACT contract testing</mark> and functional testing using the <mark>Karate framework</mark>, improving test accuracy and early detection of integration issues."
+
             ],
             "startDate": "Feb 2024",
             "endDate": "present"
@@ -37,9 +55,7 @@
             "description": [
                 "Received <mark>3x Spot Awards</mark> for outstanding quality of work.",
                 "Created an <mark>Audit Logging</mark> framework using Java and Spring Boot to intercept every API request in microservices, improving tracking and enhancing security.",
-                "Contributed to critical fixes and enhancements in Checkout service in <mark><a href=\"https://developer.mastercard.com/product/click-to-pay\" rel=\"noreferrer\" target=\"_blank\" style={{textDecoration: 'none', color: 'inherit'}}>MasterCard Checkout Solutions (MACS)</a></mark>, leveraging Java, Spring Boot, and Redis, integrating multiple micro-services and implementing a caching mechanism for optimal performance.",
-                "Enhanced project efficiency with a custom <mark>Unused WireMock Cleanup Extension</mark>, monitoring and removing redundant stubbings from functional tests. Successfully deleted 5000 unused WireMocks, significantly optimizing project health.",
-                "Developed a versatile <mark>Checkout Toolkit web UI</mark>, garnering praise from both internal and cross-functional teams. Implemented with ReactJS and Spring Boot for optimal performance and usability",
+                
                 "Streamlined the <mark>PCI-SSF</mark> features in the application, including Data Encryption and Data Masking, according to user permissions using Java, Spring Boot, and Hibernate. This resulted in improved security compliance.",
                 "Implemented an <mark>Event Logging</mark> framework using Java and Spring Boot to raise events for important user actions in all microservices. This improved application monitoring and resulted in a 50% reduction in time taken to identify and resolve issues.",
                 "Created BPMN models using <mark>Camunda Zeebe Modeler</mark> to improve process efficiency and reduce development time.",

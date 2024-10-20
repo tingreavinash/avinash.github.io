@@ -10,16 +10,16 @@ function AboutMe(props) {
                         <span className="section-heading">About Me</span>
                     </h2>
                     <p className="lead text-justify" data-aos="fade-right">
-                        I'm a seasoned Software Engineer, and beyond the lines of code, here's a bit about the person behind the screen.
+                    I'm an experienced Software Engineer, but there's more to me than just writing code - here's a little about who I am.
                     </p>
                     <p className="lead text-justify" data-aos="fade-right">
-                        Innovation is the heartbeat of my professional journey. I see coding not just as a job but as an art of turning ideas into reality. Constantly exploring new technologies and methodologies, I thrive on challenges, viewing them as opportunities to innovate and enhance.
+                    Innovation has always been at the core of what I do. For me, coding isn't just a job; it's a way to bring ideas to life. I enjoy exploring new technologies and methods, and I see challenges as opportunities to improve and create something new.
                     </p>
                     <p className="lead text-justify" data-aos="fade-right">
-                        An avid participant in tech meetups and conferences, I believe in the power of community and learning from the experiences of fellow tech enthusiasts. Let's connect and share insights, because in this rapidly evolving tech landscape, collaboration is key.
+                    I'm also active in tech meetups and conferences because I believe in the value of community and learning from others in the field. Let's connect and share ideas, because in the fast-paced tech world, collaboration makes a big difference.
                     </p>
                     <p className="lead text-justify" data-aos="fade-right">
-                        In a world of algorithms and frameworks, I bring not just technical prowess but a holistic approach to problem-solving.
+                    While I work with algorithms and frameworks, I bring a well-rounded approach to solving problems, combining technical skills with creative thinking.
                     </p>
                     <div className="summary-skills" data-aos="fade-right">
                         <div className="chip chip-border-primary">Data Structures</div>

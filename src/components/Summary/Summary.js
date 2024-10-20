@@ -52,13 +52,13 @@ function Summary(props) {
               style={{ textAlign: "left" }}
               data-aos="fade-right"
             >
-              <li><span style={{fontWeight: 'bold'}}>Experienced Software Engineer:</span> Accomplished professional with {" "} <mark>{calculateTotalExperience()}</mark> of expertise in developing and optimizing large-scale backend systems.</li>
-              <li><span style={{fontWeight: 'bold'}}>Innovative Problem Solver:</span> Passionate about driving innovation, improving efficiency, and automating processes to enhance overall system performance and functionality.</li>
-              <li><span style={{fontWeight: 'bold'}}>Proven Track Record:</span> Recognized for outstanding contributions, earning multiple <mark>Spot Awards</mark> for exemplary work.</li>
-              <li><span style={{fontWeight: 'bold'}}>Expertise in Java and Spring Ecosystem:</span> Proficient in <mark>Java, Spring Boot, and Spring Cloud,</mark> with a focus on designing and implementing robust solutions for critical systems.</li>
-              <li><span style={{fontWeight: 'bold'}}>Cross-Functional Collaboration:</span> Effective collaborator, demonstrated through successful integration of multiple microservices in the <mark><a href="https://developer.mastercard.com/product/click-to-pay" rel="noreferrer" target="_blank" style={{textDecoration: "none", color: 'inherit'}}>MasterCard Checkout Solutions (MACS)</a></mark>.</li>
-              <li><span style={{fontWeight: 'bold'}}>Efficiency Optimization:</span> Implemented <mark>tools and frameworks</mark> that significantly improved project efficiency, such as the Audit Logging framework and the Unused WireMock Cleanup Extension.</li>
-              <li><span style={{fontWeight: 'bold'}}>Versatile Skill Set:</span> Skilled in a range of technologies including ReactJS, AWS, Docker, Kubernetes, and more, contributing to the development and maintenance of high-performance applications.</li>
+              <li><span style={{fontWeight: 'bold'}}>Experienced Software Engineer:</span> With {" "} <mark>{calculateTotalExperience()}</mark> of experience, I specialize in building and improving backend systems that can handle large-scale demands.</li>
+              <li><span style={{fontWeight: 'bold'}}>Creative Problem Solver:</span> I love finding new ways to improve systems, making them more efficient, and automating tasks to enhance overall performance.</li>
+              <li><span style={{fontWeight: 'bold'}}>Proven Results:</span> Recognized for my contributions with multiple Spot Awards, highlighting my dedication and impact.</li>
+              <li><span style={{fontWeight: 'bold'}}>Skilled in Java & Spring:</span> Strong expertise in Java, Spring Boot, and Spring Cloud, focusing on designing solid, reliable systems that meet critical business needs.</li>
+              <li><span style={{fontWeight: 'bold'}}>Team-Oriented:</span> Successfully worked with teams to integrate multiple microservices in <mark><a href="https://developer.mastercard.com/product/click-to-pay" rel="noreferrer" target="_blank" style={{textDecoration: "none", color: 'inherit'}}>MasterCard Checkout Solutions (MACS)</a></mark>, helping improve the overall product.</li>
+              <li><span style={{fontWeight: 'bold'}}>Efficiency-Focused:</span> Created tools like the Audit Logging Framework and a WireMock Cleanup tool that made the development process faster and more efficient.</li>
+              <li><span style={{fontWeight: 'bold'}}>Wide Range of Skills:</span> Comfortable working with various technologies, including ReactJS, AWS, Docker, and Kubernetes, to develop and maintain high-quality applications.</li>
               
             </ul>
             <div className="social-icons" data-aos="fade-right">
